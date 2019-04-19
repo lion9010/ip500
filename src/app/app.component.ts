@@ -1,0 +1,13 @@
+import { Component } from '@angular/core';
+
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss']
+})
+
+
+export class AppComponent {
+  title = 'IP500\u00ae';
+}
