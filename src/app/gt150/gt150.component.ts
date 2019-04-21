@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-gt150',
   templateUrl: './gt150.component.html',
-  styleUrls: ['./gt150.component.css']
+  styleUrls: ['./gt150.component.scss']
 })
 export class Gt150Component implements OnInit {
 

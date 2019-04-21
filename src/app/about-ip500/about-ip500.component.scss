@@ -1,16 +1,33 @@
 
-
-
 .container {
     margin-top: -25vh;
 
     h2 {
         margin-bottom: 25vh;
     }
-  
-    
+}
 
-    .video {
-        text-align: center;
+ div > div.row > div {
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 5vw;
+}
+
+.centrado {
+    width: 100vw;
+    height: 50vw;
+    margin: 0;
+    padding: 0;
+    padding-right: 5vw;
+    .contenido {
+
+
+        iframe {
+            align-self: center;
+        }
     }
+
+    
 }

@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-cnx100',
   templateUrl: './cnx100.component.html',
-  styleUrls: ['./cnx100.component.css']
+  styleUrls: ['./cnx100.component.scss']
 })
 export class Cnx100Component implements OnInit {
 

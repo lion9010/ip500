@@ -1,0 +1,21 @@
+.columnas {
+    column-count: 2;
+    @media screen and (max-width: 1200px) {
+        column-count: 1;
+      }
+      h3 {
+          margin-bottom: 3vw;
+      }
+}
+
+#producto {
+    background-image: url('../../../img/productos/cnx200.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100vw;
+    height: auto;
+    @media screen and (max-width: 775px) {
+        height: 45vw;
+      }
+}
