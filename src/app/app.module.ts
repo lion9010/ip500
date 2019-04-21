@@ -1,5 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
+
 
 
 
@@ -31,6 +34,8 @@ import { ContactComponent } from './contact/contact.component';
 import { NewsComponent } from './news/news.component';
 import { FooterComponent } from './footer/footer.component';
 import { BarraComponent } from './footer/barra/barra.component';
+import { AppBootstrapModule } from './app-bootstrap.module';
+
 
 
 
@@ -68,14 +73,18 @@ import { BarraComponent } from './footer/barra/barra.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    BrowserModule,
+    AppRoutingModule, 
+    AppBootstrapModule,
+    BrowserAnimationsModule,
+    MDBBootstrapModule.forRoot()
+    
     
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [ NO_ERRORS_SCHEMA ]
 
 
 })
 export class AppModule { }
-export class AppBootstrapModule {}
+

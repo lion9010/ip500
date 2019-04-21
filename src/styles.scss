@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+body, html {
+   height: 100%;
+  }
+
+  $mediano : 768px;
+
+  .columnas {
+      column-count: 2;
+      margin-bottom: 5vw;
+      text-align: justify;
+      column-gap: 5vw;
+      @media screen and (max-width: $mediano){
+          column-count: 1;
+      }
+  }

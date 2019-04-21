@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
+
+
+
+
 @Component({
   selector: 'app-nav',
   templateUrl: './nav.component.html',
@@ -7,11 +11,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 
-  appTitle: string= 'IP500\u00ae'
+  title: string = 'IP500\u00ae'
+
+  toggleCollapse() {
+    let element: HTMLElement = document.getElementsByClassName('navbar-toggler')[0] as HTMLElement;
+    element.click();
+
+  }
 
   constructor() { }
 
   ngOnInit() {
+
   }
 
+
 }
+
