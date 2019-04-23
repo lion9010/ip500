@@ -24,10 +24,18 @@ import { ProductsComponent } from './products/products.component';
 import { ProjectComponent } from './project/project.component';
 import { SolutionsComponent } from './solutions/solutions.component';
 import { TechnologyComponent } from './technology/technology.component';
+import { NewComponentComponent } from './new-component/new-component.component';
+import { NewsOneComponent} from './news-one/news-one.component';
+import { NewsTwoComponent } from './news-two/news-two.component';
+
+
 
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
+  { path: 'new-two', component: NewsTwoComponent},
+  { path: 'new-one', component: NewsOneComponent},
+  {path: 'new-component', component: NewComponentComponent},
   { path: 'about', component: AboutComponent},
   { path: 'about-ip500', component: AboutIP500Component },
   { path: 'cnx100', component: Cnx100Component },

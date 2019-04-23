@@ -35,6 +35,9 @@ import { NewsComponent } from './news/news.component';
 import { FooterComponent } from './footer/footer.component';
 import { BarraComponent } from './footer/barra/barra.component';
 import { AppBootstrapModule } from './app-bootstrap.module';
+import { NewComponentComponent } from './new-component/new-component.component';
+import { NewsOneComponent } from './news-one/news-one.component';
+import { NewsTwoComponent } from './news-two/news-two.component';
 
 
 
@@ -70,6 +73,9 @@ import { AppBootstrapModule } from './app-bootstrap.module';
     NewsComponent,
     FooterComponent,
     BarraComponent,
+    NewComponentComponent,
+    NewsOneComponent,
+    NewsTwoComponent,
   ],
   imports: [
     BrowserModule,
