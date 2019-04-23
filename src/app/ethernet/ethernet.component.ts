@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EthernetComponent implements OnInit {
 
-  titulo: string = 'Ethernet Gateway'
+  titulo: string = 'Puerto Web'
 
   constructor() { }
 

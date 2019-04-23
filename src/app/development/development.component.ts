@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./development.component.scss']
 })
 export class DevelopmentComponent implements OnInit {
-  titulo:string = 'Development Kit R3';
+  titulo:string = 'Kit R3 De Desarrollo';
 
   constructor() { }
 

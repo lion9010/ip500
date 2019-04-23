@@ -1,0 +1,74 @@
+.bg {
+    /* The image used */
+    background-image: url("../img/bg/bg8.jpg");
+  
+    /* Half height */
+    height: 50vh;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    // agragar código adicional
+  }
+
+  h3 {
+      text-align: center;
+      margin-bottom: 3vw;
+  }
+
+  #imagen1 {
+      width: 100vw;
+      height: 300px;
+      background-image: url('../img/bg/bg9.jpg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-attachment: inherit;
+      background-position: center;
+      
+  }
+
+
+  #imagen2 {
+    width: 100vw;
+    height: 300px;
+    background-image: url('../img/bg/bg10.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: inherit;
+    background-position: center;
+    
+}
+
+#imagen3 {
+    width: 100vw;
+    height: 300px;
+    background-image: url('../img/bg/bg11.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: inherit;
+    background-position: center;
+    
+    
+}
+
+#imagen4 {
+    width: 100vw;
+    height: 300px;
+    background-image: url('../img/bg/bg12.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: inherit;
+    background-position: center;
+    
+    
+}
+
+.row {
+    margin-bottom: 3vw;
+}
+
+.separar >h3 {
+    margin-bottom: 10px;
+}

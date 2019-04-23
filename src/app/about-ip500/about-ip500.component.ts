@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutIP500Component implements OnInit {
   
-  titulo: string = 'About'
+  titulo: string = 'About Us'
 
   constructor() { }
 

@@ -1,83 +1,107 @@
-
-
 <!-- navegación -->
-<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark light-blue darken-4 fixed-top scrolling-navbar" [containerInside]="true">
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark light-blue darken-4 fixed-top scrolling-navbar"
+    [containerInside]="true">
 
     <!-- marca -->
-    <mdb-navbar-brand><a class="navbar-brand" routerLink="/"><img src="../../../img/brand/IP500_logo_blanco.svg"
-                alt="Home {{title}}" height="30" style="margin-right:20px; width:100%/9;" class="d-inline-block align-top">IP500</a></mdb-navbar-brand>
+    <mdb-navbar-brand><a class="navbar-brand" routerLink="/"><img src="../img/brand/IP500_logo_blanco.svg"
+                alt="Home {{title}}" height="30" style="margin-right:20px; width:100%/9;"
+                class="d-inline-block align-top">IP500</a></mdb-navbar-brand>
 
-                <!-- inicio colapso -->
-                <links>
-                    <ul class="navbar-nav ml-auto">
-                        <!-- normal -->
-                        <li class="nav-item">
-                            <a class="nav-link waves-light" mdbWavesEffect routerLink="/">Home<span class="sr-only">(current)</span></a>
-                        </li>
+    <!-- inicio colapso -->
+    <links>
+        <ul class="navbar-nav ml-auto">
+            <!-- normal -->
+            <li class="nav-item">
+                <a class="nav-link waves-light" mdbWavesEffect routerLink="/">Home<span
+                        class="sr-only">(current)</span></a>
+            </li>
 
-                        <!-- dropdown -->
-                        <li class="nav-item dropdown" dropdown>
-                            <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
-                                About<span class="caret"></span></a>
-                            <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
-                                <a routerLink="/about-ip500" class="dropdown-item waves-light" mdbWavesEffect role="button" (click)="toggleCollapse()">About IP500&reg;</a>
-                                <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/ip500-board"(click)="toggleCollapse()">IP500&reg; Board</a>
-                                <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/ip500-members" (click)="toggleCollapse()">IP500&reg; Members</a>
-                                <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/ip500-partners" (click)="toggleCollapse()">IP500&reg; Partners</a>
-                                <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/join-us" (click)="toggleCollapse()">Join Us</a>
-                                
-                                <!-- se usa para la linea de separación -->
-                                <!-- <div class="divider dropdown-divider"></div>
+            <!-- dropdown -->
+            <li class="nav-item dropdown" dropdown>
+                <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light"
+                    mdbWavesEffect>
+                    About<span class="caret"></span></a>
+                <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                    <a routerLink="/about-ip500" class="dropdown-item waves-light" mdbWavesEffect role="button"
+                        (click)="toggleCollapse()">IP500&reg;</a>
+                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/ip500-board"
+                        (click)="toggleCollapse()">Directivos IP500&reg;</a>
+                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/ip500-members"
+                        (click)="toggleCollapse()">Miembros IP500&reg;</a>
+                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/ip500-partners"
+                        (click)="toggleCollapse()">Socios IP500&reg;</a>
+                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/join-us"
+                        (click)="toggleCollapse()">Únete</a>
+
+                    <!-- se usa para la linea de separación -->
+                    <!-- <div class="divider dropdown-divider"></div>
                                 <a class="dropdown-item waves-light" mdbWavesEffect>Separated link</a> -->
-                            </div>
-                        </li>
+                </div>
+            </li>
 
-                        <li class="nav-item dropdown" dropdown>
-                                <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
-                                    Productos<span class="caret"></span></a>
-                                <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
-                                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/gt150" (click)="toggleCollapse()">GT150 - Getaway</a>
-                                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/ethernet" (click)="toggleCollapse()">Ethernet - Getaway</a>
-                                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/cnx100" (click)="toggleCollapse()">CNX100 - 868 MHz Wireless Radio Module</a>
-                                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/cnx200" (click)="toggleCollapse()">CNX200 - Dual Band Radio Module</a>
-                                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/development" (click)="toggleCollapse()">Development Kit R3</a>
-                                </div>
-                        </li>
+            <li class="nav-item dropdown" dropdown>
+                <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light"
+                    mdbWavesEffect>
+                    Productos<span class="caret"></span></a>
+                <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/gt150"
+                        (click)="toggleCollapse()">Puerto - GT150</a>
+                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/ethernet"
+                        (click)="toggleCollapse()">Puerto Web</a>
+                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/cnx100"
+                        (click)="toggleCollapse()">Módulo de Radio inalambrico (868 MHz) - CNX100</a>
+                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/cnx200"
+                        (click)="toggleCollapse()">Módulo de Radio con Banda Dual - CNX200</a>
+                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/development"
+                        (click)="toggleCollapse()">Kit R3</a>
+                </div>
+            </li>
 
-                        <li class="nav-item dropdown" dropdown>
-                                <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
-                                    Solutions<span class="caret"></span></a>
-                                <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
-                                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/ip500-solutions" (click)="toggleCollapse()">IP500&reg; Solutions</a>
-                                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/project" (click)="toggleCollapse()">Smart City Project Freiburg</a>                                    
-                                </div>
-                        </li>
+            <li class="nav-item dropdown" dropdown>
+                <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light"
+                    mdbWavesEffect>
+                    Soluciones<span class="caret"></span></a>
+                <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/ip500-solutions"
+                        (click)="toggleCollapse()">Soluciones IP500&reg;</a>
+                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/project"
+                        (click)="toggleCollapse()">Proyecto Ciudad Inteligente Freiburg</a>
+                </div>
+            </li>
 
-                        <li class="nav-item">
-                                <a class="nav-link waves-light" mdbWavesEffect routerLink="/technology">Technology<span class="sr-only">(current)</span></a>
-                            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-light" mdbWavesEffect routerLink="/technology">Tecnología<span
+                        class="sr-only">(current)</span></a>
+            </li>
 
-                            <li class="nav-item dropdown" dropdown>
-                                    <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
-                                        News<span class="caret"></span></a>
-                                    <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
-                                        <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/news-news" (click)="toggleCollapse()">News</a>
-                                        <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/events" (click)="toggleCollapse()">Events</a>
-                                        <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/press" (click)="toggleCollapse()">Press</a>                                        
-                                    </div>
-                            </li>
+            <li class="nav-item dropdown" dropdown>
+                <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light"
+                    mdbWavesEffect>
+                    Noticias<span class="caret"></span></a>
+                <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/news-news"
+                        (click)="toggleCollapse()">Noticias</a>
+                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/events"
+                        (click)="toggleCollapse()">Eventos</a>
+                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/press"
+                        (click)="toggleCollapse()">Prensa</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-light" mdbWavesEffect routerLink="/contact">Contacto<span
+                        class="sr-only">(current)</span></a>
+            </li>
+            <!-- Search form -->
 
-                            <!-- Search form -->
-
-      <!-- <form class="form-inline waves-light" mdbWavesEffect>
+            <!-- <form class="form-inline waves-light" mdbWavesEffect>
             <div class="md-form my-0">
                 <input class="form-control mr-sm-2" type="text" placeholder="Search">
             </div>
         </form> -->
 
 
-                    </ul>
-                
-                </links>
+        </ul>
+
+    </links>
 
 </mdb-navbar>

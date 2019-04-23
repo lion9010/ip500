@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class JoinUsComponent implements OnInit {
 
-  titulo: string= 'Joins Us'
+  titulo: string= 'Únete!'
 
   constructor() { }
 
