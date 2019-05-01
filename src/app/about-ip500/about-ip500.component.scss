@@ -4,6 +4,10 @@
 
     h2 {
         margin-bottom: 25vh;
+        @media screen and (max-width: 756px) {
+            margin-top: 25vh;
+            margin-bottom: 3vw;
+          }
     }
 }
 

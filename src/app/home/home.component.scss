@@ -5,15 +5,19 @@ $margen: 5vw;
 
 .inicio {
   margin-top: -25vh;
-  margin-bottom: 20vh;
+  margin-bottom: 3vw;
   margin-left: 5vw;
   button > a {
     color: white;
   }
+  @media screen and (max-width: $break-small) {
+    margin-top: 5vw;
+    margin-bottom: 0vw;
+  }
 }
 
 .inicio2 {
-  margin-top: 0vh;
+  margin-top: 5vh;
   h2 {
   margin-bottom: 5vw;
 }

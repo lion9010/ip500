@@ -1,0 +1,17 @@
+.corto {
+    color: white;
+    display: none;
+    font-size: 0.8rem;
+    @media screen and (max-width: 756px) {
+        display: initial;
+      }
+}
+
+.largo {
+    color: white;
+    vertical-align: text-bottom;
+    font-size: 0.8rem;
+    @media screen and (max-width: 756px) {
+        display: none;
+      }
+}

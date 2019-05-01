@@ -1,3 +1,6 @@
+$ancho1: 1050px;
+// $ancho2:;
+
 .container {
     padding: 5vw;
     margin: 0;
@@ -18,3 +21,64 @@ section {
     margin: 0;
 }
 
+.containerArea {
+    padding: 5vw;
+    margin: 0;
+    display: grid;
+    .newsletter {
+        grid-area: newsletter;
+    }
+    .descargas {
+        grid-area: descargas;
+    }
+    .noticias {
+        grid-area: noticias;
+        display: grid;
+        grid-gap: 1vw;
+        grid-template-areas:
+            'texto .'
+            'noticia1 noticia2'
+            'noticia3 noticia3';
+        .texto {
+            grid-area: texto;
+        }
+        
+        .noticia1 {
+            grid-area: noticia1;
+        }
+        .noticia2 {
+            grid-area: noticia2;
+        }
+        .noticia3 {
+            grid-area: noticia3;
+        }
+
+        @media screen and (max-width: $ancho1) {
+            grid-template-areas: 
+                'texto .'
+                'noticia1 noticia1'
+                'noticia2 noticia3'
+        }
+        @media screen and (max-width: 870px) {
+            grid-template-areas: 
+                'texto'
+                'noticia1'
+                'noticia2'
+                'noticia3'
+        }
+    }
+
+    grid-template-areas: 'newsletter descargas noticias';
+    grid-gap: 3vw;
+    @media screen and (max-width: $ancho1) {
+        grid-template-areas: 
+            'newsletter noticias'
+            'descargas noticias'
+    }
+    @media screen and (max-width: 560px){
+        grid-template-areas: 
+            'newsletter'
+            'noticias'
+            'descargas'
+    }
+}

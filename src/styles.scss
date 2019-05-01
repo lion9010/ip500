@@ -19,5 +19,9 @@ body, html {
     margin-top: -25vh;
   margin-bottom: 25vh;
   margin-left: 5vw;
+  @media screen and (max-width: 756px) {
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+  }
 }
 
