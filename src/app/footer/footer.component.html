@@ -28,26 +28,19 @@
                     
                 </div>
 
-                <div class="noticia1">
-                    <section class="noticiasPie">
-                        <h4><a href="">IP500 presenta productos adicionales OEM </a></h4>
-                        <time>Marzo 25, 2019</time>
-                    </section>
+                <div class="noticia{{i+1}}" *ngFor="let noticia of noticias; let i=index">
+                    <div *ngIf="i<3">
+                        <section>
+                            <h4><a href="http://">{{noticia.titulo}}</a></h4>
+                            <time>{{noticia.fecha}}</time>
+                        </section>
+
+                    </div>
                 </div>
-                <div class="noticia2">
-                    <section class="noticiasPie">
-                        <h4><a href="">IP500 Alliance en el Congreso Mundial Móvil 2019</a></h4>
-                        <time>Febrero 26, 2019</time>
-                    </section>
-                </div>
-                <div class="noticia3">
-                    <section class="noticiasPie">
-                        <h4><a href="">La alianza IP500 en el CES, Las Vegas</a></h4>
-                        <time>January 15, 2019</time>
-                    </section>
-                </div>
+
             </div>
 
         
     </div>
+    <app-login></app-login>
 </footer>

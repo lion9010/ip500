@@ -3,9 +3,9 @@ import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
-
-
-
+// servicios
+import { NoticiasService } from './noticias.service';
+// servicios
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -38,11 +38,7 @@ import { AppBootstrapModule } from './app-bootstrap.module';
 import { NewComponentComponent } from './new-component/new-component.component';
 import { NewsOneComponent } from './news-one/news-one.component';
 import { NewsTwoComponent } from './news-two/news-two.component';
-
-
-
-
-
+import { LoginComponent } from './footer/login/login.component';
 
 
 @NgModule({
@@ -76,6 +72,7 @@ import { NewsTwoComponent } from './news-two/news-two.component';
     NewComponentComponent,
     NewsOneComponent,
     NewsTwoComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
@@ -83,10 +80,10 @@ import { NewsTwoComponent } from './news-two/news-two.component';
     AppBootstrapModule,
     BrowserAnimationsModule,
     MDBBootstrapModule.forRoot()
-    
-    
   ],
-  providers: [],
+  providers: [
+    NoticiasService
+  ],
   bootstrap: [AppComponent],
   schemas: [ NO_ERRORS_SCHEMA ]
 

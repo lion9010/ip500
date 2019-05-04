@@ -35,7 +35,7 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'new-two', component: NewsTwoComponent},
   { path: 'new-one', component: NewsOneComponent},
-  {path: 'new-component', component: NewComponentComponent},
+  { path: 'new-component', component: NewComponentComponent},
   { path: 'about', component: AboutComponent},
   { path: 'about-ip500', component: AboutIP500Component },
   { path: 'cnx100', component: Cnx100Component },
@@ -56,7 +56,6 @@ const routes: Routes = [
   { path: 'products', component: ProductsComponent },
   { path: 'project', component: ProjectComponent },
   { path: 'solutions', component: SolutionsComponent },
-  
   { path: 'technology', component: TechnologyComponent },
 
 ];

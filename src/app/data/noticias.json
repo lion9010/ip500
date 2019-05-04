@@ -1,0 +1,22 @@
+{
+  "noticias": [
+    {
+      "titulo": "IP500 presenta productos adicionales OEM",
+      "fecha": 20190325,
+      "tipoDeNoticia": "Noticias internas",
+      "texto": "El proyecto IP500 SmartIndustry demuestra productos OEM adicionales en la sala de demostración en Friburgo, Alemania. Como se reportó en el informe..."
+    },
+    {
+      "titulo": "La alianza @IP500 en el Congreso mundial movil 2019",
+      "fecha": 20190226,
+      "tipoDeNoticia": "Noticias internas",
+      "texto": "La Alianza IP500® presentó su sistema ECO IP500 con productos OEM (Fabricante de Equipamiento Original) y una verdadera red de red IP500 de banda d..."
+    },
+    {
+      "titulo": "Alianza IP500 en CES, Las Vegas",
+      "fecha": 20190115,
+      "tipoDeNoticia": "Noticias internas",
+      "texto": "En asociación con SMK, la Alianza IP500 ha presentado con éxito un sistema ECO IP500 totalmente interoperable con productos OEM IP500 y soluciones ..."
+    }
+  ]
+}
