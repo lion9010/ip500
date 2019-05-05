@@ -1,10 +1,12 @@
 import { Injectable } from '@angular/core';
 import { noticias } from './data/noticias.json'
+import { analyzeAndValidateNgModules } from '@angular/compiler';
 
 @Injectable({
   providedIn: 'root'
 })
 export class NoticiasService {
+
 
   //JSON
 
@@ -12,9 +14,7 @@ export class NoticiasService {
 
   //JSON
 
-  constructor() {
-    console.log(noticias)
-  }
+  constructor() {}
 
   obternerNoticias(){
     return this.noticias
