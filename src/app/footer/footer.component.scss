@@ -1,6 +1,11 @@
 $ancho1: 1050px;
 // $ancho2:;
 
+a:hover {
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
 .container {
   padding: 5vw;
   margin: 0;
@@ -83,3 +88,4 @@ section {
       "descargas";
   }
 }
+

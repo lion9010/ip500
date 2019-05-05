@@ -28,11 +28,12 @@
                     
                 </div>
 
-                <div class="noticia{{i+1}}" *ngFor="let noticia of noticias; let i=index">
+                <div class="noticia{{i+1}}" *ngFor="let noticia of noticias, index as i">
                     <div *ngIf="i<3">
                         <section>
-                            <h4><a href="http://">{{noticia.titulo}}</a></h4>
-                            <time>{{noticia.fecha}}</time>
+                            <h4><a [routerLink]="['/news', i, noticia.fecha, url[i]]">{{noticia.titulo}}</a></h4>
+                            <time>{{noticia.fecha}}</time><br>
+                            <a [routerLink]="['/news', i, noticia.fecha, url[i]]">Leer más...</a>
                         </section>
 
                     </div>

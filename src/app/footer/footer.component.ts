@@ -8,16 +8,17 @@ import { NoticiasService } from '../noticias.service';
 })
 export class FooterComponent implements OnInit {
 
-  noticias: any [] = []
-    
+  noticias: any [] = [];
 
+  url: string[] = [];
+  
   constructor(private _noticias:NoticiasService) { 
-    this.noticias = _noticias.obternerNoticias();
-    for (let index = 0; index < this.noticias.length; index++) {
-      console.log(this.noticias[index].fecha.toString().substr(4,2))
-      
+    this.noticias = _noticias.obternerNoticias(); 
+    for (let index = 0; index < _noticias.obternerNoticias().length; index++) {
+      const tituloUrl = _noticias.obternerNoticias()[index]['titulo'].replace(/ /g,"-",).slice(0,40);
+      this.url[index] =tituloUrl
     }
-    console.log(this.noticias)
+    
   }
 
   ngOnInit() {

@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { AboutIP500Component } from './about-ip500/about-ip500.component';
@@ -29,8 +28,6 @@ import { NewsOneComponent} from './news-one/news-one.component';
 import { NewsTwoComponent } from './news-two/news-two.component';
 
 
-
-
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'new-two', component: NewsTwoComponent},
@@ -50,17 +47,14 @@ const routes: Routes = [
   { path: 'ip500-partners', component: Ip500PartnersComponent },
   { path: 'ip500-solutions', component: Ip500SolutionsComponent },
   { path: 'join-us', component: JoinUsComponent },
-  { path: 'news', component: NewsComponent },
+  { path: 'news/:id/:fecha/:name', component: NewsComponent },
   { path: 'news-news', component: NewsNewsComponent },
   { path: 'press', component: PressComponent },
   { path: 'products', component: ProductsComponent },
   { path: 'project', component: ProjectComponent },
   { path: 'solutions', component: SolutionsComponent },
   { path: 'technology', component: TechnologyComponent },
-
 ];
-
-
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

@@ -19,4 +19,9 @@ export class NoticiasService {
   obternerNoticias(){
     return this.noticias
   }
+
+  obtenerUno(i){
+    return this.noticias[i]
+  }
+
 }
