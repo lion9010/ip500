@@ -33,6 +33,9 @@
                         <section>
                             <h4><a [routerLink]="['/news', i, noticia.fecha, url[i]]">{{noticia.titulo}}</a></h4>
                             <time>{{noticia.fecha}}</time><br>
+
+                            <!-- *En caso de crear un elemento para las URLs CAMBIAR el llamado -->
+
                             <a [routerLink]="['/news', i, noticia.fecha, url[i]]">Leer más...</a>
                         </section>
 
