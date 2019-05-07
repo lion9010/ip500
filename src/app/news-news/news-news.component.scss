@@ -2,3 +2,59 @@ h3 {
     text-align: center;
     margin-bottom: 5vw;
 }
+
+
+.contenedorAreas {
+    display: grid;
+    margin: 0;
+    padding: 0 5vw;
+    grid-gap: 5vw;
+    .areaTitulo {
+      grid-area: titulo;
+      text-align: center  
+    }
+    .areaTarjeta1 {
+      grid-area: tarjeta1
+    }
+    .areaTarjeta2 {
+      grid-area: tarjeta2
+    }
+    .areaTarjeta3 {
+      grid-area: tarjeta3
+    }
+    .repeticiones {
+      width: 1fr;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      .texto {
+        padding: 2vw
+      }
+      
+    }
+    p {
+      text-align: justify;
+    }
+    .leerMas{
+      width: 100%;
+      text-align: right;
+      
+    }
+    grid-template-areas: 
+      '. titulo .'
+      'tarjeta1 tarjeta2 tarjeta3';
+  
+    @media screen and (max-width: 1000px){
+      grid-template-areas: 
+        'titulo titulo'
+        'tarjeta1 tarjeta1'
+        'tarjeta2 tarjeta3'
+    }
+  
+    @media screen and (max-width: 640px){
+      grid-template-areas: 
+        'titulo'
+        'tarjeta1'
+        'tarjeta2'
+        'tarjeta3'
+    }
+  
+  }

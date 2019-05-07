@@ -1,10 +1,12 @@
-<div class="bg"></div>
+<div class="bg">
+    <img src="../../assets/news/{{noticia.img}}" alt="{{noticia.titulo}}" width="auto" height="auto">
+</div>
 
 
 <div>
     <section>
         <h3>{{noticia.titulo}}</h3>
-        <p>{{noticia.texto}}</p>
         <span>{{noticia.fecha}}</span>
+        <div innerHTML="{{noticia.html}}"></div>
     </section>
 </div>
