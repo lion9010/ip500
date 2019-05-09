@@ -3,10 +3,24 @@
 </div>
 
 
-<div>
+<div class="contenedor">
     <section>
-        <h3>{{noticia.titulo}}</h3>
-        <span>{{noticia.fecha}}</span>
-        <div innerHTML="{{noticia.html}}"></div>
+        <h3 class="titulo">{{noticia.titulo}}</h3>
+        <br>
+        <span class="fecha">Fecha: {{noticia.fecha}}</span>
+        <br>
+        <br>
+        <div class="noticia" innerHTML="{{noticia.html}}"></div>
     </section>
+</div>
+
+<div class="contenedor">
+    <div class="otrasNoticias" *ngFor="let otraNoticia of otrasNoticias; index as i">
+        <div class="distribucion">
+            <img src="../../assets/news/{{otraNoticia.img}}" alt="{{otraNoticia.titulo}}" height="auto" width="100$%">
+            <a>
+                {{otraNoticia.titulo}}
+            </a>
+        </div>
+    </div>
 </div>

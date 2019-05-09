@@ -1,8 +1,44 @@
 .bg {
-    
   img {
     width: 100vw;
     height: 50vh;
     object-fit: cover;
   }
+}
+
+.contenedor {
+  margin: 3vw 10vw;
+  display: flex;
+  flex-direction: row;
+  .titulo {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3vw;
   }
+
+  .fecha {
+    font-size: 1rem;
+  }
+
+  .noticia {
+    font-size: 1.3rem;
+    text-align: justify;
+    cite {
+      margin-bottom: 4vw;
+    }
+    br {
+      margin: 3vw;
+    }
+  }
+}
+
+.otrasNoticias {
+  padding: 2vw;
+  .distribucion {
+    display: flex;
+    flex-direction: column;
+    img {
+      width: 100%;
+    }
+  }
+}

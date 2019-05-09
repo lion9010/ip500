@@ -76,19 +76,23 @@
                         class="sr-only">(current)</span></a>
             </li>
 
+            
+            
             <li class="nav-item dropdown" routerLinkActive="active" dropdown>
                 <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light"
                     mdbWavesEffect>
                     Noticias<span class="caret"></span></a>
                 <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
                     <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/news-news"
-                        (click)="toggleCollapse()">Noticias</a>
+                    (click)="toggleCollapse()">Noticias</a>
                     <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/events"
-                        (click)="toggleCollapse()">Eventos</a>
+                    (click)="toggleCollapse()">Eventos</a>
                     <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/press"
-                        (click)="toggleCollapse()">Prensa</a>
+                    (click)="toggleCollapse()">Prensa</a>
                 </div>
             </li>
+            
+
             <li class="nav-item" routerLinkActive="active">
                 <a class="nav-link waves-light" mdbWavesEffect routerLink="/contact">Contacto<span
                         class="sr-only">(current)</span></a>
