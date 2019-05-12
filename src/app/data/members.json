@@ -1,0 +1,287 @@
+{
+  "miembros": [
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "IP500&#64;",
+      "member": [
+          {
+            "@type": "Organization",
+            "name": "ABI",
+            "logo": [
+                {
+                    "@type" : "ImageObject",
+                    "encodingFormat" : "svg",
+                    "image" : "https://www.abi-sicherheitssysteme.de/fileadmin/img/abi_logo.svg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "encodingFormat" : "jpeg",
+                    "image" : "1.jpg"
+                }
+            ],
+            
+            "url": "www.abi-sicherheitssysteme.de",
+            "description" : "<p>ASSA ABLOY Sicherheitstechnik GmbH is the professional partner worldwide in mechanical and electromechanical security solutions for safety, security and convenience in buildings.&nbsp;<br><br>The company develops, produces and markets high-quality products and multi-purpose systems under the established IKON and effeff brand names for the private, commercial and public sectors.&nbsp;<br><br></p>"
+          },
+          {
+            "@type": "Organization",
+            "name": "ASSA ABLOY",
+            "logo": [
+                {
+                    "@type" : "ImageObject",
+                    "encodingFormat" : "png",
+                    "image" : "https://www.assaabloy.com/Global/Startpage/white_png_219x30.png"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "encodingFormat" : "jpeg",
+                    "image" : "2.jpg"
+                }
+            ],
+            
+            "url": "www.assaabloy.com",
+            "description" : "<p>ASSA ABLOY Sicherheitstechnik GmbH is the professional partner worldwide in mechanical and electromechanical security solutions for safety, security and convenience in buildings.&nbsp;<br><br>The company develops, produces and markets high-quality products and multi-purpose systems under the established IKON and effeff brand names for the private, commercial and public sectors.&nbsp;<br><br></p>"
+          },
+          {
+            "@type": "Organization",
+            "name": "BKS",
+            "logo": [
+                {
+                    "@type" : "ImageObject",
+                    "encodingFormat" : "svg",
+                    "image" : "https://www.g-u.com/fileadmin/Resources/Public/Images/Logo-GU-Gruppe.svg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "encodingFormat" : "jpeg",
+                    "image" : "4.jpg"
+                }
+            ],
+            
+            "url": "www.g-u.com",
+            "description" : ""
+          },
+          {
+            "@type": "Organization",
+            "name": "BOSCH",
+            "logo": [
+                {
+                    "@type" : "ImageObject",
+                    "encodingFormat" : "png",
+                    "image" : "https://media.boschsecurity.com/fs/media/en/pb/images/bosch_logo_res_340x111.png"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "encodingFormat" : "jpeg",
+                    "image" : "5.jpg"
+                }
+            ],
+            
+            "url": "www.boschsecurity.com",
+            "description" : "<p>The product range from Bosch Security Systems includes video surveillance systems with state-of-the-art IP-solutions, Access Control Systems, Intrusion Detection Systems, Fire Detection and Evacuation Systems, Security Management Systems, Public Address and Conference Systems as well as Professional Audio Systems.&nbsp;</p>"
+          },
+          {
+            "@type": "Organization",
+            "name": "DATA-LINK",
+            "logo": [
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "jpg",
+                    "image" : "https://data-linc.com/wp-content/uploads/2017/03/DLGLogo2017RGB10x4-3.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "interna",
+                    "encodingFormat" : "jpeg",
+                    "image" : "6.jpg"
+                }
+            ],
+            
+            "url": "www.data-linc.com",
+            "description" : "<p>DATA-LINC GROUP industrial modems offer unsurpassed data communication, seamless connectivity and unparalleled reliability between PLC, PC and RTU applications- even in extreme environments. From water/wastewater and oil/gas to industrial automation, DATA-LINC GROUP makes the connection.&nbsp;</p>"
+          },
+          {
+            "@type": "Organization",
+            "name": "DORMA",
+            "logo": [
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "gif",
+                    "image" : "https://www.dormakaba.com/resource/blob/2022/310454c471ac3ca193e96a6d44f7cf30/tim-dormakaba-logo-data.gif"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "interna",
+                    "encodingFormat" : "jpeg",
+                    "image" : "7.jpg"
+                }
+            ],
+            
+            "url": "www.dorma.com",
+            "description" : "<p>DORMA is a globally active supplier of door technology products and systems. With more than 100 years of tradition behind it, DORMA has developed into the world market leader in door controls, movable walls and glass fittings and accessories. In the automatics segment too, the company is a member of the world elite. DORMA is also a successful player in the security, time management and access control segment and the number one in Germany for emergency exit control and escape route security systems. DORMA maintains major production plants in Europe, Singapore, Malaysia, China and North and South America.&nbsp;<br><br></p>"
+          },
+          {
+            "@type": "Organization",
+            "name": "EATON",
+            "logo": [
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "png",
+                    "image" : "https://www.eaton.com/content/dam/eaton/global/logos/eaton-logo-small.png"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "interna",
+                    "encodingFormat" : "jpeg",
+                    "image" : "8.jpg"
+                }
+            ],
+            
+            "url": "www.eaton.com",
+            "description" : ""
+          },
+          {
+            "@type": "Organization",
+            "name": "ESSMANN",
+            "logo": [
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "png",
+                    "image" : "https://www.essmann.de/images/header/logo.png"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "interna",
+                    "encodingFormat" : "jpeg",
+                    "image" : "9.jpg"
+                }
+            ],
+            
+            "url": "www.essmann.de",
+            "description" : ""
+          },
+          {
+            "@type": "Organization",
+            "name": "EVAQAID",
+            "logo":
+                {
+                    "@type" : "ImageObject",
+                    "name" : "interna",
+                    "encodingFormat" : "jpeg",
+                    "image" : "11.jpg"
+                },
+            "address" : {
+                "@type" : "PostalAddress",
+                "addressCountry" : "The Netherlands",
+                "addressLocality" : "2502 CD The Hague",
+                "postOfficeBoxNumber" : "P.O. Box 17157"
+            },
+            "location" : {
+                "@type" : "Place",
+                "telephone" : "el: +31 6 53 70 94 22"
+            },
+            
+            "url": "evaqaid.com",
+            "description" : ""
+          },
+          {
+            "@type": "Organization",
+            "name": "FUTURE NETWINGS",
+            "logo": [
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "png",
+                    "image" : "http://futurenetwings.com/wp-content/uploads/2018/12/cropped-Logo_FNS.png"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "interna",
+                    "encodingFormat" : "jpeg",
+                    "image" : "12.jpg"
+                }
+            ],
+            
+            "url": "www.futurenetwings.com",
+            "description" : "<p>Headquartered in Kolkata,&nbsp;<a href=&quot;http://futurenetwings.com/index.htm&quot; target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot;>Future Netwings</a>&nbsp;has made its place among the best Network Services and Support Organizations of India. With a ISO 9001:2008 certified Quality Management System and a motto to provide Service &amp; Support exceeding global standards, our operations are spread across India and Singapore.</p><br><br><p>As a customer centric organization we maintain a huge stock of spares for quick service turnaround. Additionally, when the industry mostly relies on outsourced resources to carry out the services requiring specialized equipments, the availability of such critical resources inhouse has always been an unique advantage with us. No wonder the prestigious clientele we retain with conceit refer us willingly as their favored solutions partner.</p><br><br><p>Our diverse projects include extensive WAN infrastructures, Datacenter Setup, Indoor &amp; Outdoor Secure WiMax &amp; Wi-Fi, Video Conferencing, IP Telephony, Campus LANs, Intra City Fiber Optic Connectivity as well as Advanced Server and Desktop Level OS and Application Configuration. Behind every project our objective has been International Quality and Standards Adherence.</p>"
+          },
+          {
+            "@type": "Organization",
+            "name": "GEZE",
+            "logo": 
+                {
+                    "@type" : "ImageObject",
+                    "name" : "interna",
+                    "encodingFormat" : "jpeg",
+                    "image" : "12.jpg"
+                },
+            "url": "www.geze.de",
+            "description" : "<p>The GEZE name stands for innovation and the highest quality of products, processes and service. As one of the global market leaders for door, window and safety technology systems, GEZE GmbH has had a decisive influence on building management systems with its pioneering developments. GEZE door closers open up a numerous technical and visual possibilities. Every day millions of people walk through doors fitted with GEZE’s TS 5000 series overhead door closers and enjoy the natural convenience of automatic door systems, such as the Slimdrive product line. Barrier-free door and window systems offer maximum convenience, not only for people with restricted mobility. The integrated all-glass systems provide architectural design freedom. GEZE fitting solutions, such as the attractively designed sliding systems, are award-winning. What’s more, GEZE provides a wide range of products in the field of window and ventilation technology as well as smoke and heat extraction systems (RWA). The safety technology field encompasses escape and rescue route solutions, locking technology, and access control systems. GEZE’s building management system provides an overview of all the building systems. As a provider of systems, GEZE creates not only stand-alone but also coordinated system solutions which combine functional and safety requirements in a single intelligent system. Product solutions from GEZE can be found in renowned structures throughout the world. The company has a worldwide presence with 31 subsidiaries, 27 of which are outside Germany, a flexible and highly efficient sales and service network, almost 2,800 employees, and in the 2015/2016 fiscal year it achieved a turnover of over 394 million euros.&nbsp;&nbsp;</p>"
+          },
+          {
+            "@type": "Organization",
+            "name": "GISINGER",
+            "logo": [
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "gif",
+                    "image" : "https://www.gisinger.de/fileadmin/sys/default/public/img/signet.gif"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "interna",
+                    "encodingFormat" : "jpeg",
+                    "image" : "14.jpg"
+                }
+            ],
+            
+            "url": "www.gisinger.de",
+            "description" : "<p>The Gisinger group from Freiburg / Breisgau specializes in real estate brokerage, real estate construction, existing buildings, turnkey construction and property management.&nbsp;</p>"
+          },
+          {
+            "@type": "Organization",
+            "name": "GUNNEBO",
+            "logo": 
+                {
+                    "@type" : "ImageObject",
+                    "name" : "interna",
+                    "encodingFormat" : "jpeg",
+                    "image" : "15.jpg"
+                },
+            
+            "url": "www.gunnebo.com",
+            "description" : "<p>Gunnebo is an international security Group with an annual turnover of MEUR 730 and 6,800 employees. The Group supplies integrated security solutions for customers with high requirements on secure cash handling, access- and entrance control, intrusion- burglar and fire-protection. The primary focus is on banks, retailers and sites in need of high security solutions.&nbsp;</p>"
+          },
+          {
+            "@type": "Organization",
+            "name": "HEKATRON",
+            "logo":  [
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "svg",
+                    "image" : "https://www.hekatron.de/typo3conf/ext/hekatron_websitemodules/Resources/Public/Images/Logos/logo-corporate.svg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "interna",
+                    "encodingFormat" : "jpeg",
+                    "image" : "16.jpg"
+                }
+            ],
+            
+            "url": "www.hekatron.de",
+            "description" : "<p>Hekatron is the leading specialist in development, production and distribution of integrated systems for fire protection. In 1964 the company developed Europe’s first scattered light smoke detector for series production. In 1967 Hekatron invented the optical smoke switch for fire proof doors for fully automatic door release systems. Hekatron is a company of the Securitas Group Switzerland.&nbsp;</p>"
+          }
+
+
+      ]
+    }
+  ]
+}
