@@ -26,6 +26,7 @@ import { TechnologyComponent } from './technology/technology.component';
 import { NewComponentComponent } from './new-component/new-component.component';
 import { NewsOneComponent} from './news-one/news-one.component';
 import { NewsTwoComponent } from './news-two/news-two.component';
+import { PerfilMiembrosComponent} from './perfil-miembros/perfil-miembros.component'
 
 
 const routes: Routes = [
@@ -54,6 +55,7 @@ const routes: Routes = [
   { path: 'project', component: ProjectComponent },
   { path: 'solutions', component: SolutionsComponent },
   { path: 'technology', component: TechnologyComponent },
+  { path: 'miembro/:id/:name', component: PerfilMiembrosComponent}
 ];
 
 @NgModule({

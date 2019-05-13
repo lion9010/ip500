@@ -39,6 +39,7 @@ import { NewComponentComponent } from './new-component/new-component.component';
 import { NewsOneComponent } from './news-one/news-one.component';
 import { NewsTwoComponent } from './news-two/news-two.component';
 import { LoginComponent } from './footer/login/login.component';
+import { PerfilMiembrosComponent } from './perfil-miembros/perfil-miembros.component';
 
 
 @NgModule({
@@ -73,6 +74,7 @@ import { LoginComponent } from './footer/login/login.component';
     NewsOneComponent,
     NewsTwoComponent,
     LoginComponent,
+    PerfilMiembrosComponent,
   ],
   imports: [
     BrowserModule,

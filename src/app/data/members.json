@@ -11,13 +11,13 @@
             "logo": [
                 {
                     "@type" : "ImageObject",
-                    "encodingFormat" : "svg",
-                    "image" : "https://www.abi-sicherheitssysteme.de/fileadmin/img/abi_logo.svg"
+                    "encodingFormat" : "jpeg",
+                    "image" : "1.jpg"
                 },
                 {
                     "@type" : "ImageObject",
-                    "encodingFormat" : "jpeg",
-                    "image" : "1.jpg"
+                    "encodingFormat" : "svg",
+                    "image" : "https://www.abi-sicherheitssysteme.de/fileadmin/img/abi_logo.svg"
                 }
             ],
             
@@ -30,13 +30,13 @@
             "logo": [
                 {
                     "@type" : "ImageObject",
-                    "encodingFormat" : "png",
-                    "image" : "https://www.assaabloy.com/Global/Startpage/white_png_219x30.png"
+                    "encodingFormat" : "jpeg",
+                    "image" : "2.jpg"
                 },
                 {
                     "@type" : "ImageObject",
-                    "encodingFormat" : "jpeg",
-                    "image" : "2.jpg"
+                    "encodingFormat" : "png",
+                    "image" : "https://www.assaabloy.com/Global/Startpage/white_png_219x30.png"
                 }
             ],
             
@@ -45,17 +45,36 @@
           },
           {
             "@type": "Organization",
+            "name": "BELIMO",
+            "logo": [
+                {
+                    "@type" : "ImageObject",
+                    "encodingFormat" : "jpeg",
+                    "image" : "3.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "encodingFormat" : "png",
+                    "image" : "https://www.belimo.com/.resources/belimo-website-module/webresources/image/logo-1x.png"
+                }
+            ],
+            
+            "url": "www.belimo.com",
+            "description" : "<p>Belimo is a listed technology company with a staff of more than 1200 worldwide.&nbsp;<br><br>It developed, manufactured and distributed electric actuators for air dampers and valve technology for heating, ventilation and air conditioning systems since 1975. The company is with its comprehensive range of products a world leader in this specific market.&nbsp;<br><br></p>"
+          },
+          {
+            "@type": "Organization",
             "name": "BKS",
             "logo": [
                 {
                     "@type" : "ImageObject",
-                    "encodingFormat" : "svg",
-                    "image" : "https://www.g-u.com/fileadmin/Resources/Public/Images/Logo-GU-Gruppe.svg"
+                    "encodingFormat" : "jpeg",
+                    "image" : "4.jpg"
                 },
                 {
                     "@type" : "ImageObject",
-                    "encodingFormat" : "jpeg",
-                    "image" : "4.jpg"
+                    "encodingFormat" : "svg",
+                    "image" : "https://www.g-u.com/fileadmin/Resources/Public/Images/Logo-GU-Gruppe.svg"
                 }
             ],
             
@@ -68,13 +87,13 @@
             "logo": [
                 {
                     "@type" : "ImageObject",
-                    "encodingFormat" : "png",
-                    "image" : "https://media.boschsecurity.com/fs/media/en/pb/images/bosch_logo_res_340x111.png"
+                    "encodingFormat" : "jpeg",
+                    "image" : "5.jpg"
                 },
                 {
                     "@type" : "ImageObject",
-                    "encodingFormat" : "jpeg",
-                    "image" : "5.jpg"
+                    "encodingFormat" : "png",
+                    "image" : "https://media.boschsecurity.com/fs/media/en/pb/images/bosch_logo_res_340x111.png"
                 }
             ],
             
@@ -87,15 +106,15 @@
             "logo": [
                 {
                     "@type" : "ImageObject",
-                    "name" : "web",
-                    "encodingFormat" : "jpg",
-                    "image" : "https://data-linc.com/wp-content/uploads/2017/03/DLGLogo2017RGB10x4-3.jpg"
-                },
-                {
-                    "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "6.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "jpg",
+                    "image" : "https://data-linc.com/wp-content/uploads/2017/03/DLGLogo2017RGB10x4-3.jpg"
                 }
             ],
             
@@ -108,15 +127,15 @@
             "logo": [
                 {
                     "@type" : "ImageObject",
-                    "name" : "web",
-                    "encodingFormat" : "gif",
-                    "image" : "https://www.dormakaba.com/resource/blob/2022/310454c471ac3ca193e96a6d44f7cf30/tim-dormakaba-logo-data.gif"
-                },
-                {
-                    "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "7.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "gif",
+                    "image" : "https://www.dormakaba.com/resource/blob/2022/310454c471ac3ca193e96a6d44f7cf30/tim-dormakaba-logo-data.gif"
                 }
             ],
             
@@ -129,15 +148,15 @@
             "logo": [
                 {
                     "@type" : "ImageObject",
-                    "name" : "web",
-                    "encodingFormat" : "png",
-                    "image" : "https://www.eaton.com/content/dam/eaton/global/logos/eaton-logo-small.png"
-                },
-                {
-                    "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "8.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "png",
+                    "image" : "https://www.eaton.com/content/dam/eaton/global/logos/eaton-logo-small.png"
                 }
             ],
             
@@ -150,15 +169,15 @@
             "logo": [
                 {
                     "@type" : "ImageObject",
-                    "name" : "web",
-                    "encodingFormat" : "png",
-                    "image" : "https://www.essmann.de/images/header/logo.png"
-                },
-                {
-                    "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "9.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "png",
+                    "image" : "https://www.essmann.de/images/header/logo.png"
                 }
             ],
             
@@ -167,14 +186,35 @@
           },
           {
             "@type": "Organization",
-            "name": "EVAQAID",
-            "logo":
+            "name": "EUROMICRON",
+            "logo": [
                 {
                     "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
-                    "image" : "11.jpg"
+                    "image" : "10.jpg"
                 },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "gif",
+                    "image" : "https://www.euromicron.de/sites/all/themes/euromicron_ag/images/euromicron-ag.gif"
+                }
+            ],
+            
+            "url": "www.euromicron.de",
+            "description" : ""
+          },
+          {
+            "@type": "Organization",
+            "name": "EVAQAID",
+            "logo":
+                [{
+                    "@type" : "ImageObject",
+                    "name" : "interna",
+                    "encodingFormat" : "jpeg",
+                    "image" : "11.jpg"
+                }],
             "address" : {
                 "@type" : "PostalAddress",
                 "addressCountry" : "The Netherlands",
@@ -195,15 +235,15 @@
             "logo": [
                 {
                     "@type" : "ImageObject",
-                    "name" : "web",
-                    "encodingFormat" : "png",
-                    "image" : "http://futurenetwings.com/wp-content/uploads/2018/12/cropped-Logo_FNS.png"
-                },
-                {
-                    "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "12.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "png",
+                    "image" : "http://futurenetwings.com/wp-content/uploads/2018/12/cropped-Logo_FNS.png"
                 }
             ],
             
@@ -214,12 +254,12 @@
             "@type": "Organization",
             "name": "GEZE",
             "logo": 
-                {
+                [{
                     "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "12.jpg"
-                },
+                }],
             "url": "www.geze.de",
             "description" : "<p>The GEZE name stands for innovation and the highest quality of products, processes and service. As one of the global market leaders for door, window and safety technology systems, GEZE GmbH has had a decisive influence on building management systems with its pioneering developments. GEZE door closers open up a numerous technical and visual possibilities. Every day millions of people walk through doors fitted with GEZE’s TS 5000 series overhead door closers and enjoy the natural convenience of automatic door systems, such as the Slimdrive product line. Barrier-free door and window systems offer maximum convenience, not only for people with restricted mobility. The integrated all-glass systems provide architectural design freedom. GEZE fitting solutions, such as the attractively designed sliding systems, are award-winning. What’s more, GEZE provides a wide range of products in the field of window and ventilation technology as well as smoke and heat extraction systems (RWA). The safety technology field encompasses escape and rescue route solutions, locking technology, and access control systems. GEZE’s building management system provides an overview of all the building systems. As a provider of systems, GEZE creates not only stand-alone but also coordinated system solutions which combine functional and safety requirements in a single intelligent system. Product solutions from GEZE can be found in renowned structures throughout the world. The company has a worldwide presence with 31 subsidiaries, 27 of which are outside Germany, a flexible and highly efficient sales and service network, almost 2,800 employees, and in the 2015/2016 fiscal year it achieved a turnover of over 394 million euros.&nbsp;&nbsp;</p>"
           },
@@ -229,15 +269,15 @@
             "logo": [
                 {
                     "@type" : "ImageObject",
-                    "name" : "web",
-                    "encodingFormat" : "gif",
-                    "image" : "https://www.gisinger.de/fileadmin/sys/default/public/img/signet.gif"
-                },
-                {
-                    "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "14.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "gif",
+                    "image" : "https://www.gisinger.de/fileadmin/sys/default/public/img/signet.gif"
                 }
             ],
             
@@ -248,12 +288,12 @@
             "@type": "Organization",
             "name": "GUNNEBO",
             "logo": 
-                {
+                [{
                     "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "15.jpg"
-                },
+                }],
             
             "url": "www.gunnebo.com",
             "description" : "<p>Gunnebo is an international security Group with an annual turnover of MEUR 730 and 6,800 employees. The Group supplies integrated security solutions for customers with high requirements on secure cash handling, access- and entrance control, intrusion- burglar and fire-protection. The primary focus is on banks, retailers and sites in need of high security solutions.&nbsp;</p>"
@@ -264,15 +304,15 @@
             "logo":  [
                 {
                     "@type" : "ImageObject",
-                    "name" : "web",
-                    "encodingFormat" : "svg",
-                    "image" : "https://www.hekatron.de/typo3conf/ext/hekatron_websitemodules/Resources/Public/Images/Logos/logo-corporate.svg"
-                },
-                {
-                    "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "16.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "svg",
+                    "image" : "https://www.hekatron.de/typo3conf/ext/hekatron_websitemodules/Resources/Public/Images/Logos/logo-corporate.svg"
                 }
             ],
             
@@ -285,15 +325,15 @@
             "logo":  [
                 {
                     "@type" : "ImageObject",
-                    "name" : "web",
-                    "encodingFormat" : "png",
-                    "image" : "https://www.honeywell.com/-/media/Honeywell_com/Images/Icons/Navigation/honeywell_logo.png?h=64&la=en&w=180&hash=6F8071F03903158486E8517CCCA4675F5ED5A015"
-                },
-                {
-                    "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "17.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "png",
+                    "image" : "https://www.honeywell.com/-/media/Honeywell_com/Images/Icons/Navigation/honeywell_logo.png?h=64&la=en&w=180&hash=6F8071F03903158486E8517CCCA4675F5ED5A015"
                 }
             ],
             
@@ -306,15 +346,15 @@
             "logo":  [
                 {
                     "@type" : "ImageObject",
-                    "name" : "web",
-                    "encodingFormat" : "png",
-                    "image" : "https://www.inotec-licht.de/typo3conf/ext/inotec/Resources/Public/images/inotec_logo.png"
-                },
-                {
-                    "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "18.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "png",
+                    "image" : "https://www.inotec-licht.de/typo3conf/ext/inotec/Resources/Public/images/inotec_logo.png"
                 }
             ],
             
@@ -327,15 +367,15 @@
             "logo":  [
                 {
                     "@type" : "ImageObject",
-                    "name" : "web",
-                    "encodingFormat" : "svg",
-                    "image" : "https://www.detectomat.com/typo3conf/ext/job_template/Resources/Public/Images/logo_detectomat.svg"
-                },
-                {
-                    "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "19.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "svg",
+                    "image" : "https://www.detectomat.com/typo3conf/ext/job_template/Resources/Public/Images/logo_detectomat.svg"
                 }
             ],
             
@@ -348,15 +388,15 @@
             "logo":  [
                 {
                     "@type" : "ImageObject",
-                    "name" : "web",
-                    "encodingFormat" : "svg",
-                    "image" : "https://www.kingspan.com/group/assets/img/design/kingspan-logo.svg"
-                },
-                {
-                    "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "20.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "svg",
+                    "image" : "https://www.kingspan.com/group/assets/img/design/kingspan-logo.svg"
                 }
             ],
             
@@ -369,15 +409,15 @@
             "logo":  [
                 {
                     "@type" : "ImageObject",
-                    "name" : "web",
-                    "encodingFormat" : "jpg",
-                    "image" : "https://www.link-gmbh.com/fileadmin/template/main/gfx/link_header_new.jpg"
-                },
-                {
-                    "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "21.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "jpg",
+                    "image" : "https://www.link-gmbh.com/fileadmin/template/main/gfx/link_header_new.jpg"
                 }
             ],
             
@@ -390,15 +430,15 @@
             "logo":  [
                 {
                     "@type" : "ImageObject",
-                    "name" : "web",
-                    "encodingFormat" : "jpg",
-                    "image" : "https://www.microsens.com/typo3temp/pics/b247a0d05b.jpg"
-                },
-                {
-                    "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "22.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "jpg",
+                    "image" : "https://www.microsens.com/typo3temp/pics/b247a0d05b.jpg"
                 }
             ],
             
@@ -409,12 +449,12 @@
             "@type": "Organization",
             "name": "NOVO LIGHTING",
             "logo":  
-                {
+                [{
                     "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "23.jpg"
-                },            
+                }],            
             "url": "http://www.novo.lighting",
             "description" : "<p>Novo Lighting is a popular Indian Lighting brand with Innovative product designs and a vision to offer cost effective Intelligent LED Lighting solutions for Global markets. It has been serving Indian and International customers since year 2006 and is rapidly growing its presence all over the Globe. Novo Lighting will present its innovative Lighting solutions and IP500 equipped Luminaires for Indoor and Outdoor use at Light &amp; Building trade show at Frankfurt in March 2016.&nbsp;</p>"
           },
@@ -424,15 +464,15 @@
             "logo":  [
                 {
                     "@type" : "ImageObject",
-                    "name" : "web",
-                    "encodingFormat" : "png",
-                    "image" : "https://www.orele3.co.uk/wp-content/themes/commercial-lighting/images/led-lighting.png"
-                },
-                {
-                    "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "24.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "png",
+                    "image" : "https://www.orele3.co.uk/wp-content/themes/commercial-lighting/images/led-lighting.png"
                 }
             ],
             
@@ -445,15 +485,15 @@
             "logo":  [
                 {
                     "@type" : "ImageObject",
-                    "name" : "web",
-                    "encodingFormat" : "png",
-                    "image" : "https://www.pcvuesolutions.com/germany/images/PcVueSolutions_logo_white_little.png"
-                },
-                {
-                    "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "25.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "png",
+                    "image" : "https://www.pcvuesolutions.com/germany/images/PcVueSolutions_logo_white_little.png"
                 }
             ],
             
@@ -466,15 +506,15 @@
             "logo":  [
                 {
                     "@type" : "ImageObject",
-                    "name" : "web",
-                    "encodingFormat" : "svg",
-                    "image" : "https://www.regent.ch/fileadmin/main/images/logo.svg"
-                },
-                {
-                    "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "26.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "svg",
+                    "image" : "https://www.regent.ch/fileadmin/main/images/logo.svg"
                 }
             ],
             
@@ -487,15 +527,15 @@
             "logo":  [
                 {
                     "@type" : "ImageObject",
-                    "name" : "web",
-                    "encodingFormat" : "png",
-                    "image" : "http://www.robotina.com/wp-content/uploads/2011/09/robotina_top_117_45.png"
-                },
-                {
-                    "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "27.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "png",
+                    "image" : "http://www.robotina.com/wp-content/uploads/2011/09/robotina_top_117_45.png"
                 }
             ],
             
@@ -508,15 +548,15 @@
             "logo":  [
                 {
                     "@type" : "ImageObject",
-                    "name" : "web",
-                    "encodingFormat" : "png",
-                    "image" : "https://www.salt.ch/static/img/xlogo-main-business,402x.png.pagespeed.ic.2j1fkb5wVC.webp"
-                },
-                {
-                    "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "28.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "png",
+                    "image" : "https://www.salt.ch/static/img/xlogo-main-business,402x.png.pagespeed.ic.2j1fkb5wVC.webp"
                 }
             ],
             
@@ -529,15 +569,15 @@
             "logo":  [
                 {
                     "@type" : "ImageObject",
-                    "name" : "web",
-                    "encodingFormat" : "png",
-                    "image" : "https://www.schindler.com/content/dam/web/group/all/logo/schindler-logo.jpg"
-                },
-                {
-                    "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "29.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "png",
+                    "image" : "https://www.schindler.com/content/dam/web/group/all/logo/schindler-logo.jpg"
                 }
             ],
             
@@ -548,12 +588,12 @@
             "@type": "Organization",
             "name": "SCHÖNBACH",
             "logo":  
-                {
+                [{
                     "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "30.jpg"
-                },
+                }],
             
             "url": "www.schindler.com",
             "description" : ""
@@ -564,15 +604,15 @@
             "logo":  [
                 {
                     "@type" : "ImageObject",
-                    "name" : "web",
-                    "encodingFormat" : "svg",
-                    "image" : "https://www.simons-voss.com/_Resources/Static/Packages/SimonsVoss.Website/Images/Svg/simons-voss-logo-color.svg"
-                },
-                {
-                    "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "31.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "svg",
+                    "image" : "https://www.simons-voss.com/_Resources/Static/Packages/SimonsVoss.Website/Images/Svg/simons-voss-logo-color.svg"
                 }
             ],
             
@@ -585,15 +625,15 @@
             "logo":  [
                 {
                     "@type" : "ImageObject",
-                    "name" : "web",
-                    "encodingFormat" : "png",
-                    "image" : "http://sonicbolt.com/images/logo.png"
-                },
-                {
-                    "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "32.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "png",
+                    "image" : "http://sonicbolt.com/images/logo.png"
                 }
             ],
             
@@ -606,15 +646,15 @@
             "logo":  [
                 {
                     "@type" : "ImageObject",
-                    "name" : "web",
-                    "encodingFormat" : "jpg",
-                    "image" : "https://www.stg-beikirch.de/tl_files/STG-Beikirch/bilder-layout/logo_kingspan_stg.jpg"
-                },
-                {
-                    "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "33.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "jpg",
+                    "image" : "https://www.stg-beikirch.de/tl_files/STG-Beikirch/bilder-layout/logo_kingspan_stg.jpg"
                 }
             ],
             
@@ -627,15 +667,15 @@
             "logo":  [
                 {
                     "@type" : "ImageObject",
-                    "name" : "web",
-                    "encodingFormat" : "svg",
-                    "image" : "https://tema.de/fileadmin/templates/img/tema_logo.svg"
-                },
-                {
-                    "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "34.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "svg",
+                    "image" : "https://tema.de/fileadmin/templates/img/tema_logo.svg"
                 }
             ],
             
@@ -648,15 +688,15 @@
             "logo":  [
                 {
                     "@type" : "ImageObject",
-                    "name" : "web",
-                    "encodingFormat" : "png",
-                    "image" : "http://www.tyco.com/assets/img/tyco-logo.png"
-                },
-                {
-                    "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "35.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "png",
+                    "image" : "http://www.tyco.com/assets/img/tyco-logo.png"
                 }
             ],
             
@@ -669,15 +709,15 @@
             "logo":  [
                 {
                     "@type" : "ImageObject",
-                    "name" : "web",
-                    "encodingFormat" : "png",
-                    "image" : "https://www.utc.com/-/media/themes/united-technologies/utc/utc-theme/images/ui/UTC-logo2x.png"
-                },
-                {
-                    "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "36.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "png",
+                    "image" : "https://www.utc.com/-/media/themes/united-technologies/utc/utc-theme/images/ui/UTC-logo2x.png"
                 }
             ],
             
@@ -688,12 +728,12 @@
             "@type": "Organization",
             "name": "WAGO",
             "logo": 
-                {
+                [{
                     "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "37.jpg"
-                },
+                }],
             
             "url": "www.wago.com",
             "description" : "<p>WAGO is a leading provider of I/O and contact solutions for building automation and large enterprise applications. In its Electrical Interconnections business area Wago develops electrical connectors, in its Automation business electronic components for decentralized automation technology. Founded in 1951, the technology has long since become the worldwide standard for modern electrical connecting systems and automations.&nbsp;</p>"
@@ -704,15 +744,15 @@
             "logo":  [
                 {
                     "@type" : "ImageObject",
-                    "name" : "web",
-                    "encodingFormat" : "png",
-                    "image" : "https://xtralis.com/images/xtralis_logo_header_new.png"
-                },
-                {
-                    "@type" : "ImageObject",
                     "name" : "interna",
                     "encodingFormat" : "jpeg",
                     "image" : "38.jpg"
+                },
+                {
+                    "@type" : "ImageObject",
+                    "name" : "web",
+                    "encodingFormat" : "png",
+                    "image" : "https://xtralis.com/images/xtralis_logo_header_new.png"
                 }
             ],
             

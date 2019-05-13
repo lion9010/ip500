@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { NoticiasService } from '../noticias.service';
+
 
 @Component({
   selector: 'app-ip500-members',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Ip500MembersComponent implements OnInit {
 
-  titulo: string= 'Miembros'
+  titulo: string= 'Miembros';
 
-  constructor() { }
+  miembros: any [] = [];
+
+  constructor(
+    private _miembros : NoticiasService
+  ) { 
+    this.miembros = this._miembros.obtenerMiembros();
+    console.log(this.miembros)
+  }
 
   ngOnInit() {
   }
