@@ -24,9 +24,10 @@ import { ProjectComponent } from './project/project.component';
 import { SolutionsComponent } from './solutions/solutions.component';
 import { TechnologyComponent } from './technology/technology.component';
 import { NewComponentComponent } from './new-component/new-component.component';
-import { NewsOneComponent} from './news-one/news-one.component';
+import { NewsOneComponent } from './news-one/news-one.component';
 import { NewsTwoComponent } from './news-two/news-two.component';
-import { PerfilMiembrosComponent} from './perfil-miembros/perfil-miembros.component'
+import { PerfilMiembrosComponent } from './perfil-miembros/perfil-miembros.component';
+import { PerfilSociosComponent } from './perfil-socios/perfil-socios.component'
 
 
 const routes: Routes = [
@@ -35,27 +36,28 @@ const routes: Routes = [
   { path: 'new-one', component: NewsOneComponent},
   { path: 'new-component', component: NewComponentComponent},
   { path: 'about', component: AboutComponent},
-  { path: 'about-ip500', component: AboutIP500Component },
+  { path: 'Acerca-de-IP500', component: AboutIP500Component },
   { path: 'cnx100', component: Cnx100Component },
   { path: 'cnx200', component: Cnx200Component },
-  { path: 'contact', component: ContactComponent },
+  { path: 'Contacto', component: ContactComponent },
   { path: 'development', component: DevelopmentComponent },
   { path: 'ethernet', component: EthernetComponent },
-  { path: 'events', component: EventsComponent },
+  { path: 'Eventos', component: EventsComponent },
   { path: 'gt150', component: Gt150Component },
-  { path: 'ip500-board', component: Ip500BoardComponent },
-  { path: 'ip500-members', component: Ip500MembersComponent },
-  { path: 'ip500-partners', component: Ip500PartnersComponent },
-  { path: 'ip500-solutions', component: Ip500SolutionsComponent },
-  { path: 'join-us', component: JoinUsComponent },
-  { path: 'news/:id/:fecha/:name', component: NewsComponent },
-  { path: 'news-news', component: NewsNewsComponent },
-  { path: 'press', component: PressComponent },
+  { path: 'Directivos', component: Ip500BoardComponent },
+  { path: 'Miembros', component: Ip500MembersComponent },
+  { path: 'Socios', component: Ip500PartnersComponent },
+  { path: 'Soluciones', component: Ip500SolutionsComponent },
+  { path: 'Unete', component: JoinUsComponent },
+  { path: 'noticia/:id/:fecha/:name', component: NewsComponent },
+  { path: 'Noticias', component: NewsNewsComponent },
+  { path: 'Prensa', component: PressComponent },
   { path: 'products', component: ProductsComponent },
-  { path: 'project', component: ProjectComponent },
+  { path: 'Proyecto', component: ProjectComponent },
   { path: 'solutions', component: SolutionsComponent },
-  { path: 'technology', component: TechnologyComponent },
-  { path: 'miembro/:id/:name', component: PerfilMiembrosComponent}
+  { path: 'Tecnologia', component: TechnologyComponent },
+  { path: 'miembro/:id/:name', component: PerfilMiembrosComponent},
+  { path: 'socio/:id/:name', component: PerfilSociosComponent}
 ];
 
 @NgModule({

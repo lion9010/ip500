@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { noticias } from './data/noticias.json';
-import { miembros } from './data/members.json'
+import { miembros } from './data/members.json';
+import { socios } from './data/partners.json'
 
 @Injectable({
   providedIn: 'root'
@@ -16,7 +17,9 @@ export class NoticiasService {
     if (a.name < b.name) {return -1}
     if (a.name > b.name) {return 1}
     return 0;
-  })
+  });
+
+  socios: any [] = socios
 
   //JSON
 
@@ -24,11 +27,12 @@ export class NoticiasService {
   constructor() {}
 
   obternerNoticias(){ return this.noticias }
-
   obtenerUno(i){ return this.noticias[i] }
 
   obtenerMiembros(){ return this.miembros }
-
   unMiembro(i){ return this.miembros[i] }
+
+  obtenerSocios(){ return this.socios }
+  unSocio(i){ return this.socios[i] }
 
 }

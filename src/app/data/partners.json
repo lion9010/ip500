@@ -1,0 +1,128 @@
+{
+  "socios": [
+    {
+      "@type": "Organization",
+      "name": "CoreNetiX GmbH",
+      "logo": [
+        {
+          "@type": "ImageObject",
+          "encodingFormat": "jpeg",
+          "image": "1.jpg"
+        },
+        {
+          "@type": "ImageObject",
+          "encodingFormat": "png",
+          "image": "http://www.corenetix.com/images/logo.png"
+        }
+      ],
+
+      "url": "www.corenetix.com",
+      "description": "<p>CoreNetiX provides highly efficient IP (Internet Protocol) based wireless intelligent network stacks on top of cutting-edge design solutions for Radio Chips. We enable highest performance of the wireless link and scalability of a sensor network by incorporating and synchronizing applications protocols with IP based network stack functions and the Radio Chip design features. In addition, CoreNetiX integrates networking software into existing OEM hardware and also provides Engineering Services.</p>"
+    },
+    {
+      "@type": "Organization",
+      "name": "iQuest",
+      "logo": [
+        {
+          "@type": "ImageObject",
+          "encodingFormat": "jpeg",
+          "image": "2.jpg"
+        },
+        {
+          "@type": "ImageObject",
+          "encodingFormat": "svg",
+          "image": "https://www.iquestgroup.com/themes/custom/iquest_theme/images/navigation/logo.svg"
+        }
+      ],
+
+      "url": "www.iquestgroup.com"
+    },
+    {
+      "@type": "Organization",
+      "name": "ISAD",
+      "logo": [
+        {
+          "@type": "ImageObject",
+          "encodingFormat": "jpeg",
+          "image": "3.jpg"
+        },
+        {
+          "@type": "ImageObject",
+          "encodingFormat": "png",
+          "image": "http://www.isadev.org/attachments/Logo/w1ve-v4-klein.png"
+        }
+      ],
+
+      "url": "www.isadev.org",
+      "description": "<p>Association of SRD Manufacturers and Users</p>"
+    },
+    {
+      "@type": "Organization",
+      "name": "OMA SpecWorks",
+      "logo": [
+        {
+          "@type": "ImageObject",
+          "encodingFormat": "jpeg",
+          "image": "4.jpg"
+        },
+        {
+          "@type": "ImageObject",
+          "encodingFormat": "png",
+          "image": "https://www.omaspecworks.org/wp-content/uploads/2018/02/logo-tagline2-1.png"
+        }
+      ],
+
+      "url": "www.omaspecworks.org",
+      "description": "<p>OMA SpecWorks – a new approach to standards development<br>Streamlined processes and expertise from across the wireless industry focused on delivering specifications at the services layer that support the billions of new and existing fixed and mobile terminals across a variety of networks, including traditional cellular operator networks and the Internet of Things (IoT).</p>"
+    },
+    {
+      "@type": "Organization",
+      "name": "SMK Corporation",
+      "logo": [
+        {
+          "@type": "ImageObject",
+          "encodingFormat": "jpeg",
+          "image": "5.jpg"
+        },
+        {
+          "@type": "ImageObject",
+          "encodingFormat": "gif",
+          "image": "https://www.smk.co.jp/image/lgo_01.gif"
+        }
+      ],
+      "url": "www.smk.co.jp",
+      "description": "<p>SMK Corporation (TOKYO:6798), established in 1925, is a world leader in the design, development and manufacture of electronic components including RF modules, miniature connection systems, OEM remote controls and other electronic assembles and touch panels. SMK has 5 R&amp;D centres, 8 factories and more than 35 sales offices globally and is in a unique position to design, develop and manufacture solutions for home automation. SMK is a manufacturer/provider of IP500 certified modules.</p>"
+    },
+    {
+      "@type": "Organization",
+      "name": "TÜV Rheinland Group",
+      "logo": [
+        {
+          "@type": "ImageObject",
+          "encodingFormat": "jpeg",
+          "image": "6.jpg"
+        }
+      ],
+      "url": "www.tuv.com",
+      "description": "<p>The TÜV Rheinland Group is a leading provider of technical services worldwide. Founded in 1872 and headquartered in Cologne, the Group employs 17.950 people in 500 locations in more than 65 countries. It generates annual revenues of € 1.6 billion. The Group’s mission and guiding principle is to achieve sustained development of safety and quality in order to meet the challenges arising from the interaction between man, technology and the environment.&nbsp;</p>"
+    },
+    {
+      "@type": "Organization",
+      "name": "VARTA Microbattery GmbH",
+      "logo": [
+        {
+          "@type": "ImageObject",
+          "encodingFormat": "jpeg",
+          "image": "7.jpg"
+        },
+        {
+          "@type": "ImageObject",
+          "encodingFormat": "png",
+          "image": "https://www.varta-microbattery.com/wp-content/uploads/2016/09/VA_Logo.png"
+        }
+      ],
+      "url": "www.varta-microbattery.com",
+      "description": "<p>VARTA Microbattery is one of the world’s leading battery manufacturers. With production facilities and sales subsidiaries worldwide, we supply high-quality battery products to our customers in more than 100 countries around the world. The company is headquartered in Ellwangen, Germany. We develop and produce batteries for all major electrochemical systems and cell geometries. As a global system supplier, we are in a position to fulfill our customers’ requirements all over the world.</p>"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<div class="perfil">
+    <div class="encabezado">
+      <img src="../../assets/asociados/{{socio.logo[0].image}}" alt="">
+    </div>
+  
+    <div class="cuerpo">
+      <h2>{{socio.name}}</h2>
+      <div class="descripcion" *ngIf="socio.description" innerHTML="{{socio.description}}"></div>
+      <div *ngIf="socio.location">
+        <span>{{socio.location.address.addressCountry}}</span><br>
+        <span>{{socio.location.address.addressLocality}}</span><br>
+        <span>{{socio.location.address.postOfficeBoxNumber}}</span><br>
+        <span>{{socio.location.telephone}}</span><br>
+      </div>
+      <a href="http://{{socio.url}}" target="_blank">{{socio.url}}</a>
+    </div>
+  </div>

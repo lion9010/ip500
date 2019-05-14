@@ -24,19 +24,19 @@
             <div class="noticias">
                 <!-- !acá también se necesita el pluggin -->
                 <div class="texto">
-                    <h3>News</h3>
+                    <h3>Noticias</h3>
                     
                 </div>
 
                 <div class="noticia{{i+1}}" *ngFor="let noticia of noticias, index as i">
                     <div *ngIf="i<3">
                         <section>
-                            <h4><a [routerLink]="['/news', i, noticia.fecha, url[i]]">{{noticia.titulo}}</a></h4>
+                            <h4><a [routerLink]="['/noticia', i, noticia.fecha, url[i]]">{{noticia.titulo}}</a></h4>
                             <time>{{noticia.fecha}}</time><br>
 
                             <!-- *En caso de crear un elemento para las URLs CAMBIAR el llamado -->
 
-                            <a [routerLink]="['/news', i, noticia.fecha, url[i]]">Leer más...</a>
+                            <a [routerLink]="['/noticia', i, noticia.fecha, url[i]]">Leer más...</a>
                         </section>
 
                     </div>
