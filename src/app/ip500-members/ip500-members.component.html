@@ -11,7 +11,7 @@
 <div class="contenedor">
 
 <div class="box" *ngFor="let miembro of miembros; index as i">
-    <a [routerLink]="['/miembro', i, miembro.name]"><img src="../../assets/galeria/{{miembro.logo[0].image}}" alt="{{miembro.name}}"></a>
+    <a [routerLink]="['/miembro', i, url[i]]"><img src="../../assets/galeria/{{miembro.logo[0].image}}" alt="{{miembro.name}}"></a>
 </div>
 
 </div>
