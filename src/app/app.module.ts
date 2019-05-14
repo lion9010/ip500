@@ -23,7 +23,6 @@ import { EthernetComponent } from './ethernet/ethernet.component';
 import { Cnx100Component } from './cnx100/cnx100.component';
 import { Cnx200Component } from './cnx200/cnx200.component';
 import { DevelopmentComponent } from './development/development.component';
-import { SolutionsComponent } from './solutions/solutions.component';
 import { Ip500SolutionsComponent } from './ip500-solutions/ip500-solutions.component';
 import { ProjectComponent } from './project/project.component';
 import { TechnologyComponent } from './technology/technology.component';
@@ -35,12 +34,13 @@ import { NewsComponent } from './news/news.component';
 import { FooterComponent } from './footer/footer.component';
 import { BarraComponent } from './footer/barra/barra.component';
 import { AppBootstrapModule } from './app-bootstrap.module';
-import { NewComponentComponent } from './new-component/new-component.component';
-import { NewsOneComponent } from './news-one/news-one.component';
-import { NewsTwoComponent } from './news-two/news-two.component';
+import { SolutionsComponent } from './solutions/solutions.component';
 import { LoginComponent } from './footer/login/login.component';
 import { PerfilMiembrosComponent } from './perfil-miembros/perfil-miembros.component';
-import { PerfilSociosComponent } from './perfil-socios/perfil-socios.component'
+import { PerfilSociosComponent } from './perfil-socios/perfil-socios.component';
+import { Router, Scroll } from '@angular/router';
+import { ViewportScroller } from '@angular/common';
+import { filter } from 'rxjs/operators';
 
 
 @NgModule({
@@ -60,7 +60,6 @@ import { PerfilSociosComponent } from './perfil-socios/perfil-socios.component'
     Cnx100Component,
     Cnx200Component,
     DevelopmentComponent,
-    SolutionsComponent,
     Ip500SolutionsComponent,
     ProjectComponent,
     TechnologyComponent,
@@ -71,9 +70,7 @@ import { PerfilSociosComponent } from './perfil-socios/perfil-socios.component'
     NewsComponent,
     FooterComponent,
     BarraComponent,
-    NewComponentComponent,
-    NewsOneComponent,
-    NewsTwoComponent,
+    SolutionsComponent,
     LoginComponent,
     PerfilMiembrosComponent,
     PerfilSociosComponent
@@ -93,5 +90,33 @@ import { PerfilSociosComponent } from './perfil-socios/perfil-socios.component'
 
 
 })
-export class AppModule { }
+
+export class AppModule { 
+  constructor(router: Router, viewportScroller: ViewportScroller) {
+    router.events.pipe(
+      filter((Event): Event is Scroll => Event instanceof Scroll)
+    ).subscribe(Event => {
+      if (Event.position) {
+        // backward navigation
+        viewportScroller.scrollToPosition(Event.position);
+      } else if (Event.anchor) {
+        // anchor navigation
+        viewportScroller.scrollToAnchor(Event.anchor);
+      } else {
+        // forward navigation
+        // con desplazamiento atenuado
+        let scrollToTop = window.setInterval(() => {
+          let pos = window.pageYOffset;
+          if (pos > 0) {
+              window.scrollTo(0, pos - 20); // how far to scroll on each step
+          } else {
+              window.clearInterval(scrollToTop);
+          }
+      }, 16);
+        //  la siguiente línea es para que haya un desplazamiento instantaneo
+        // viewportScroller.scrollToPosition([0, 0]);
+      }
+    });
+  }
+}
 

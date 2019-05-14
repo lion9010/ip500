@@ -21,20 +21,13 @@ import { NewsNewsComponent } from './news-news/news-news.component';
 import { PressComponent } from './press/press.component';
 import { ProductsComponent } from './products/products.component';
 import { ProjectComponent } from './project/project.component';
-import { SolutionsComponent } from './solutions/solutions.component';
 import { TechnologyComponent } from './technology/technology.component';
-import { NewComponentComponent } from './new-component/new-component.component';
-import { NewsOneComponent } from './news-one/news-one.component';
-import { NewsTwoComponent } from './news-two/news-two.component';
 import { PerfilMiembrosComponent } from './perfil-miembros/perfil-miembros.component';
 import { PerfilSociosComponent } from './perfil-socios/perfil-socios.component'
 
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'new-two', component: NewsTwoComponent},
-  { path: 'new-one', component: NewsOneComponent},
-  { path: 'new-component', component: NewComponentComponent},
   { path: 'about', component: AboutComponent},
   { path: 'Acerca-de-IP500', component: AboutIP500Component },
   { path: 'cnx100', component: Cnx100Component },
@@ -54,7 +47,6 @@ const routes: Routes = [
   { path: 'Prensa', component: PressComponent },
   { path: 'products', component: ProductsComponent },
   { path: 'Proyecto', component: ProjectComponent },
-  { path: 'solutions', component: SolutionsComponent },
   { path: 'Tecnologia', component: TechnologyComponent },
   { path: 'miembro/:id/:name', component: PerfilMiembrosComponent},
   { path: 'socio/:id/:name', component: PerfilSociosComponent}
@@ -64,4 +56,5 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
+
 export class AppRoutingModule { }
