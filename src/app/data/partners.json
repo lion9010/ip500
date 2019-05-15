@@ -17,7 +17,7 @@
       ],
 
       "url": "www.corenetix.com",
-      "description": "<p>CoreNetiX provides highly efficient IP (Internet Protocol) based wireless intelligent network stacks on top of cutting-edge design solutions for Radio Chips. We enable highest performance of the wireless link and scalability of a sensor network by incorporating and synchronizing applications protocols with IP based network stack functions and the Radio Chip design features. In addition, CoreNetiX integrates networking software into existing OEM hardware and also provides Engineering Services.</p>"
+      "description": "<p>CoreNetiX ofrece pilas de redes inteligentes inalámbricas basadas en IP (Protocolo de Internet) altamente eficientes sobre soluciones de diseño de vanguardia para Radio Chips. Permitimos el máximo rendimiento del enlace inalámbrico y la escalabilidad de una red de sensores al incorporar y sincronizar protocolos de aplicaciones con funciones de pila de red basadas en IP y las características de diseño de Radio Chip. Además, CoreNetiX integra el software de red en el hardware OEM existente y también proporciona servicios de ingeniería.</p>"
     },
     {
       "@type": "Organization",
@@ -54,7 +54,7 @@
       ],
 
       "url": "www.isadev.org",
-      "description": "<p>Association of SRD Manufacturers and Users</p>"
+      "description": "<p>Asociación de Fabricantes y Usuarios de SRD</p>"
     },
     {
       "@type": "Organization",
@@ -73,7 +73,7 @@
       ],
 
       "url": "www.omaspecworks.org",
-      "description": "<p>OMA SpecWorks – a new approach to standards development<br>Streamlined processes and expertise from across the wireless industry focused on delivering specifications at the services layer that support the billions of new and existing fixed and mobile terminals across a variety of networks, including traditional cellular operator networks and the Internet of Things (IoT).</p>"
+      "description": "<p>OMA SpecWorks - un nuevo enfoque para el desarrollo de estándares, procesos y experiencia optimizados en toda la industria inalámbrica enfocados en entregar especificaciones en la capa de servicios que soportan los miles de millones de terminales fijos y móviles nuevos y existentes en una variedad de redes, incluidas las redes de operadores celulares tradicionales y la Internet de las cosas (IoT).</p>"
     },
     {
       "@type": "Organization",
@@ -91,7 +91,7 @@
         }
       ],
       "url": "www.smk.co.jp",
-      "description": "<p>SMK Corporation (TOKYO:6798), established in 1925, is a world leader in the design, development and manufacture of electronic components including RF modules, miniature connection systems, OEM remote controls and other electronic assembles and touch panels. SMK has 5 R&amp;D centres, 8 factories and more than 35 sales offices globally and is in a unique position to design, develop and manufacture solutions for home automation. SMK is a manufacturer/provider of IP500 certified modules.</p>"
+      "description": "<p>SMK Corporation (TOKYO: 6798), establecida en 1925, es un líder mundial en diseño, desarrollo y fabricación de componentes electrónicos, incluidos módulos de RF, sistemas de conexión en miniatura, controles remotos OEM y otros conjuntos electrónicos y paneles táctiles. SMK tiene 5 centros de I + D, 8 fábricas y más de 35 oficinas de ventas en todo el mundo y se encuentra en una posición única para diseñar, desarrollar y fabricar soluciones para la automatización del hogar. SMK es un fabricante / proveedor de módulos certificados IP500.</p>"
     },
     {
       "@type": "Organization",
@@ -104,7 +104,7 @@
         }
       ],
       "url": "www.tuv.com",
-      "description": "<p>The TÜV Rheinland Group is a leading provider of technical services worldwide. Founded in 1872 and headquartered in Cologne, the Group employs 17.950 people in 500 locations in more than 65 countries. It generates annual revenues of € 1.6 billion. The Group’s mission and guiding principle is to achieve sustained development of safety and quality in order to meet the challenges arising from the interaction between man, technology and the environment.&nbsp;</p>"
+      "description": "<p>El grupo TÜV Rheinland es un proveedor líder de servicios técnicos en todo el mundo. Fundado en 1872 y con sede en Colonia (Alemania), el Grupo emplea a 17.950 personas en 500 ubicaciones en más de 65 países. Genera ingresos anuales de 1.600 millones de euros. La misión y el principio rector del Grupo es lograr un desarrollo sostenido de la seguridad y la calidad para enfrentar los desafíos que surgen de la interacción entre el hombre, la tecnología y el medio ambiente.</p>"
     },
     {
       "@type": "Organization",
@@ -122,7 +122,7 @@
         }
       ],
       "url": "www.varta-microbattery.com",
-      "description": "<p>VARTA Microbattery is one of the world’s leading battery manufacturers. With production facilities and sales subsidiaries worldwide, we supply high-quality battery products to our customers in more than 100 countries around the world. The company is headquartered in Ellwangen, Germany. We develop and produce batteries for all major electrochemical systems and cell geometries. As a global system supplier, we are in a position to fulfill our customers’ requirements all over the world.</p>"
+      "description": "<p>VARTA Microbattery es uno de los principales fabricantes de baterías del mundo. Con instalaciones de producción y subsidiarias de ventas en todo el mundo, suministramos productos de batería de alta calidad a nuestros clientes en más de 100 países de todo el mundo. La compañía tiene su sede en Ellwangen, Alemania. Desarrollamos y producimos baterías para todos los principales sistemas electroquímicos y geometrías celulares. Como proveedor global de sistemas, estamos en condiciones de cumplir con los requisitos de nuestros clientes en todo el mundo.</p>"
     }
   ]
 }
