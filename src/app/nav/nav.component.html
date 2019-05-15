@@ -46,7 +46,10 @@
                     mdbWavesEffect>
                     Productos<span class="caret"></span></a>
                 <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
-                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/gt150"
+                    <!--* lista reiterativa de productos db-->
+                    <a class="dropdown-item waves-light" mdbWavesEffect *ngFor="let producto of productos; index as i" 
+                    [routerLink]="['/producto', i, producto.titulo[0].url]" (click)="toggleCollapse()">{{producto.titulo[0].nav}}</a>
+                    <!-- <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/gt150"
                         (click)="toggleCollapse()">Puerto - GT150</a>
                     <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/ethernet"
                         (click)="toggleCollapse()">Puerto Web</a>
@@ -55,7 +58,7 @@
                     <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/cnx200"
                         (click)="toggleCollapse()">Módulo de Radio con Banda Dual - CNX200</a>
                     <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/development"
-                        (click)="toggleCollapse()">Kit R3</a>
+                        (click)="toggleCollapse()">Kit R3</a> -->
                 </div>
             </li>
 

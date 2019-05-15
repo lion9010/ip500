@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
-
+import { NoticiasService} from '../noticias.service'
 
 
 
@@ -11,7 +10,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 
-  title: string = 'IP500\u00ae'
+  title: string = 'IP500\u00ae';
+  
+  productos: any[] = []
 
   toggleCollapse() {
     let element: HTMLElement = document.getElementsByClassName('navbar-toggler')[0] as HTMLElement;
@@ -19,7 +20,12 @@ export class NavComponent implements OnInit {
 
   }
 
-  constructor() { }
+  constructor(
+    private _productos : NoticiasService
+  ) {
+    this.productos = _productos.obtenerProductos();
+    console.log(this.productos)
+   }
 
   ngOnInit() {
 

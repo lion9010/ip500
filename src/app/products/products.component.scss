@@ -1,0 +1,55 @@
+h3 {
+    margin-left: 5vw;
+}
+.contenedor {
+    display: grid;
+    padding: 3vw 5vw;
+    .texto {
+        padding: 3vw;
+        grid-area: texto;
+        text-align: justify;
+
+    }
+    .imagen {
+        grid-area: imagen;
+        img {
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+        }
+    }
+    .listas{
+        grid-area: listas;
+        display: grid;
+        .lista1 {
+            grid-area: lista1;
+            padding: 2vw;
+        }
+        .lista2 {
+            grid-area: lista2;
+            padding: 2vw;
+        }
+        grid-template-areas: 'lista1 . lista2'
+    }
+    .kit {
+        grid-area: kit;
+        display: grid;
+        .grafico{
+            grid-area: grafico;
+        }
+        .lista3 {
+            grid-area: lista3;
+        }
+        grid-template-areas: 'grafico lista3'
+
+    }
+    .distribuido {
+        grid-area: distribuido;
+        text-align: right;
+    }
+    grid-template-areas:
+        'texto texto imagen'
+        'listas listas listas' 
+        'kit kit kit'
+        '. . distribuido'
+}

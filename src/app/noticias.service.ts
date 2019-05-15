@@ -1,15 +1,16 @@
 import { Injectable } from '@angular/core';
 import { noticias } from './data/noticias.json';
 import { miembros } from './data/members.json';
-import { socios } from './data/partners.json'
+import { socios } from './data/partners.json';
+import { productos } from './data/products.json'
 
 @Injectable({
   providedIn: 'root'
 })
 export class NoticiasService {
-
-
+  
   //JSON
+  //* Si se desea optimizar se deberían filtrar por los objetos exclusivamente necesarios
 
   noticias: any [] = noticias.sort(function(a, b){return b.fecha - a.fecha});
 
@@ -19,7 +20,9 @@ export class NoticiasService {
     return 0;
   });
 
-  socios: any [] = socios
+  socios: any [] = socios;
+
+  productos: any [] = productos
 
   //JSON
 
@@ -34,5 +37,8 @@ export class NoticiasService {
 
   obtenerSocios(){ return this.socios }
   unSocio(i){ return this.socios[i] }
+
+  obtenerProductos() { return this.productos }
+  unProducto(i){ return this.productos[i] }
 
 }

@@ -45,7 +45,7 @@ const routes: Routes = [
   { path: 'noticia/:id/:fecha/:name', component: NewsComponent },
   { path: 'Noticias', component: NewsNewsComponent },
   { path: 'Prensa', component: PressComponent },
-  { path: 'products', component: ProductsComponent },
+  { path: 'producto/:id/:name', component: ProductsComponent },
   { path: 'Proyecto', component: ProjectComponent },
   { path: 'Tecnologia', component: TechnologyComponent },
   { path: 'miembro/:id/:name', component: PerfilMiembrosComponent},

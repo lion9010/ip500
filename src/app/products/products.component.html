@@ -1,2 +1,46 @@
 <!-- no tiene un enlace a ningun lado -->
 <!-- !LOS PRODUCTOS TIENEN UNA CLASE -->
+
+<app-about></app-about>
+
+<h2>{{producto.titulo[0].encabezado}}</h2>
+<h3>{{producto.titulo[0].titulo}}</h3>
+
+<div class="contenedor">
+    <div class="texto">
+        <p>{{producto.descripcion}}</p>
+    </div>
+    <div class="imagen">
+        <img src="../../assets/productos/{{producto.img}}" alt="" width="auto">
+    </div>
+    <div class="listas">
+    <ul class="lista1" *ngIf="producto.caracteristicas">
+        <li *ngFor="let caracteristica of producto.caracteristicas">{{caracteristica.item}}</li>
+    </ul>
+    <ul class="lista2" *ngIf="producto.aplicaciones">
+        <li *ngIf="producto.aplicaciones['Edificios y casas comerciales inteligentes']">Edificios y casas comerciales inteligentes</li>
+        <li *ngIf="producto.aplicaciones['Automatización inalámbrica']">Automatización inalámbrica</li>
+        <li *ngIf="producto.aplicaciones['Medición inteligente']">Medición inteligente</li>
+        <li *ngIf="producto.aplicaciones['Redes de sensores de baja potencia']">Redes de sensores de baja potencia</li>
+        <li *ngIf="producto.aplicaciones['Gestión inteligente de energía ecológica']">Gestión inteligente de energía ecológica</li>
+        <li *ngIf="producto.aplicaciones['Seguridad inalámbrica']">Seguridad inalámbrica</li>
+    </ul>
+</div>
+<div class="kit">
+    <img class="grafico" *ngIf="producto.grafico" src="../../assets/productos/{{producto.grafico}}">
+    <ul class="lista3" *ngIf="producto.kit">
+        <h4>El kit Incluye</h4>
+        <li *ngFor="let item of producto.kit">{{item.item}}</li>
+
+    </ul>
+
+</div>
+    <div class="distribuido" *ngIf="producto.distribuidoPor">
+        <h4>Distribuido por</h4>
+        <img src="{{producto.distribuidoPor.logo}}">
+
+        <li *ngFor="let link of producto.distribuidoPor.links">
+            <span *ngIf="link.pais">{{link.pais}}: </span> <a href="http://{{link.link}}">{{link.link}}</a>
+        </li>
+    </div>
+</div>

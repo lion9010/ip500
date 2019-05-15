@@ -1,0 +1,212 @@
+{
+  "productos": [
+    {
+      "titulo": [
+        {
+          "url": "Puerto-Inalambrico-GT150",
+          "encabezado": "GT150",
+          "titulo": "Administrador de puerto inalambrico IP500®",
+          "nav" : "Puerto - GT150"
+        }
+      ],
+      "caracteristicas": [
+        
+          {"item": "Estructura de datos de protocolo Nativo IP500®"},
+          {"item": "Frecuencia de operación Sub GHz"},
+          {"item": "Gestión de dispositivos y redes inalambricas"},
+          {"item": "IEEE 802.15.4"},
+          {"item": "6LoWPAN"},
+          {"item": "Actaulización remota del firmware"},
+          {"item": "Integración rapida y fácil de usar de APIs"},
+          {"item": "Gestión de claves para la comunicación inalámbrica."},
+          {"item": "Integración a los sitemas Host via TCP/IP"}
+        
+      ],
+      "aplicaciones": 
+        {
+          "Edificios y casas comerciales inteligentes": true,
+          "Automatización inalámbrica": true,
+          "Medición inteligente": true,
+          "Redes de sensores de baja potencia": true,
+          "Gestión inteligente de energía ecológica": true,
+          "Seguridad inalámbrica": true
+        }
+      ,
+      "distribuidoPor": 
+        {
+          "logo": "http://www.corenetix.com/images/logo.png",
+          "links": [{"link":"www.corenetix.com"}]
+        },
+      "img": "GT150.jpg",
+      "descripcion": "GT150 proporciona la puerta de enlace con todas las funciones entre la red de sensores y otras redes o enrutamiento del software IP500, permite la recopilación de datos desde la red de sensores y el envío de comandos de configuración a nodos individuales o grupos más grandes. El CNX GT150 puede manejar hasta 5000 sensores dentro de una red. Sin embargo, para construir redes más grandes, el GT150 se puede agrupar."
+    },
+
+    {
+      "titulo": [
+        {
+          "url": "Puerto-Web-MICROSENS",
+          "encabezado": "Puerto Web",
+          "titulo": "Puerto Web - MICROSENS IP500®",
+          "nav" : "Puerto Web"
+        }
+      ],
+      "caracteristicas": [
+        
+          {"item": "Verdadera cobertura de banda dual para sub GHz y bandas de 2,4 GHz ISM"},
+          {"item": "Antenas internas, conectores de antena externos opcionales"},
+          {"item": "Suministro a través del puerto de enlace ascendente de Ethernet con PoE (PD), IEEE 802.3af"},
+          {"item": "LED de control independiente para indicar el ritmo del sistema y el voltaje de CC a bordo"},
+          {"item": "Configuración y gestión a través de Micro Switch MICROSENS adjunto."},
+          {"item": "Soporte de procesos de gestión de servicios."},
+          {"item": "Fácil de instalar en cualquier sistema de instalación eléctrica estándar de 45 mm"},
+          {"item": "El factor de forma y de perfil son idénticos a los Micro Switches de MICROSENS"}
+        
+      ],
+      "aplicaciones": 
+        {
+          "Edificios y casas comerciales inteligentes": true,
+          "Automatización inalámbrica": true,
+          "Medición inteligente": true,
+          "Redes de sensores de baja potencia": true,
+          "Gestión inteligente de energía ecológica": true,
+          "Seguridad inalámbrica": true
+        }
+      ,
+      "distribuidoPor": 
+        {
+          "logo": "https://www.microsens.com/typo3temp/pics/b247a0d05b.jpg",
+          "links": [{"link":"www.microsens.com"}]
+        },
+      "img": "ethernet-gateway.jpg",
+      "descripcion": "El MICROSENS IP500®-Ethernet Gateway está diseñado para interconectar redes de sensores inalámbricos basadas en IP500® con las soluciones del sistema de construcción inteligente de MICROSENS. El módulo del puerto de enlace compacta se puede conectar directamente a un puerto de enlace descendente MICROSENS Micro Switch. Para simplificar los procesos de administración de servicios de TI, el puerto de enlace de internet-IP500® consta de LED separados para monitorear la disponibilidad de voltaje de CC en la placa y el latido del corazón del sistema interno. Durante el registro y el análisis de la causa raíz de los incidentes, el estado de estos LED permite que un sistema de escritorio analice y clasifique facilmente los problemas clasifique fácilmente los problemas que pueden estar relacionados con el suministro de energía o el estado del sistema."
+    },
+
+    {
+      "titulo": [
+        {
+          "url": "Radio-Inalambrico-CNX100",
+          "encabezado": "CNX100",
+          "titulo": "Módulo de radio inalámbrico IP500® 868 MHz",
+          "nav" : "Módulo de Radio inalambrico (868 MHz) - CNX100"
+        }
+      ],
+      "caracteristicas": [
+        
+          {"item": "Estructura de datos Nativa al protocolo IP500® protocol"},
+          {"item": "Frecuencia de operación de sub GHz"},
+          {"item": "Soporta IPv6"},
+          {"item": "IEEE 802.15.4"},
+          {"item": "6LoWPAN"},
+          {"item": "Connecciones: UART, Antena"},
+          {"item": "Soporte de Aplicación BACnet"},
+          {"item": "Dimensiones compactas: 15 mm x 34 mm"},
+          {"item": "Red en malla"},
+          {"item": "Certificado CE y ETSI"}
+        
+      ],
+      "aplicaciones": 
+        {
+          "Edificios y casas comerciales inteligentes": true,
+          "Automatización inalámbrica": true,
+          "Medición inteligente": true,
+          "Redes de sensores de baja potencia": true,
+          "Gestión inteligente de energía ecológica": true,
+          "Seguridad inalámbrica": true
+        }
+      ,
+      "distribuidoPor": 
+        {
+          "logo": "https://www.avnet.com/wps/contenthandler/!ut/p/digest!-FCm2sisriEGGFffr1BxTg/dav/fs-type1/themes/Avnet_Stores/css/images/EBV.svg",
+          "links": [{"link":"www.avnet.com"}]
+        },
+      "img": "cnx100-300x128.jpg",
+      "descripcion": "El CNX100 fue diseñado para cumplir con los requisitos de una solución estándar inalámbrica abierta y segura para la automatización de edificios, casas inteligente y la seguridad inalámbrica. Junto con el microcontrolador integrado y una amplia gama de periféricos, el CNX100 usa la mejor tecnología RF de sub-GHz de su clase para cumplir con los requisitos de alcance de larga distancia, el alto rendimiento de la tasa de datos y las expectativas de seguridad. El CNX100 cumple con la última IEE802.15.4g-2011 y ETSI EN300 220-1 y FCC47 CFR Sección 15.247. Una batería con protocolos IP500 y la interfaz de la aplicación BACnet permiten una fácil integración en los sistemas de los clientes mediante el uso de una interfaz API estándar."
+    },
+
+    {
+      "titulo": [
+        {
+          "url": "Radio-Dual-CNX200",
+          "encabezado": "CNX200",
+          "titulo": "Módulo de radio de banda dual IP500® 868 MHz y 2.4 GHz",
+          "nav" : "Módulo de Radio con Banda Dual - CNX200"
+        }
+      ],
+      "caracteristicas": [
+        
+          {"item": "Operación simultanea en Banda-Dual"},
+          {"item": "Módulo multi-estándar de costo optimizado para IoT"},
+          {"item": "Cumple con - IEEE 802.15.4g-2012"},
+          {"item": "Con cifrado acelerador AES128bit"},
+          {"item": "Fácil de integrar en sus productos"},
+          {"item": "Varias opciones de integración Serial, USB, I2C"},
+          {"item": "Soporte para interfaz táctil"},
+          {"item": "Dimensiones compactas: 15,0 mm x 34.5 mm"},
+          {"item": "hardware compatible EN54-25, VdS"},
+          {"item": "Disponible con estructura de datos IP500"}
+        
+      ],
+      "aplicaciones": 
+        {
+          "Edificios y casas comerciales inteligentes": true,
+          "Automatización inalámbrica": true,
+          "Medición inteligente": true,
+          "Redes de sensores de baja potencia": true,
+          "Gestión inteligente de energía ecológica": true,
+          "Seguridad inalámbrica": true
+        }
+      ,
+      "distribuidoPor":
+        {
+          "logo": "https://static1.squarespace.com/static/5a85b88812abd9e2c5719897/t/5a85ba67e4966b51651a7851/1555082694235/?format=1500w",
+          "links": [
+              {
+                "link" : "www.smkeurope.com",
+                "pais" : "SMK Europa"
+              },
+              {
+                "link" : "www.smkusa.com",
+                "pais" : "SMK USA"
+              },
+              {
+                "link" : "www.smk.co.jp",
+                "pais" : "SMK Japón"
+              }
+              ]
+        },
+      "img": "cnx200.jpg",
+      "descripcion": "CNX200 es el primer módulo REAL de doble banda del mundo que admite la comunicación simultánea en dos bandas de frecuencia, es decir, sub-GHz y 2.4GHz, que atienden las crecientes demandas de los clientes que buscan soluciones de conectividad multiprotocolo de bajo costo. CNX200 cumple con la última IEE802.15.4g-2012 y ETSI TS 102 887-1. CNX200 ofrece una multitud de esquemas de modulación que van desde FSK multirregional multirregional, OFDM, O-QPSK en bandas de frecuencia ISM europeas, estadounidenses, japonesas, chinas, coreanas y mundiales. CNX200 está diseñado principalmente para satisfacer las exigentes demandas del estándar IP500 para una comunicación segura y a prueba de fallas que pueda cumplir con EN54-25 y VdS. El módulo de banda dual CNX200 es una plataforma ideal para los OEM que buscan una plataforma de hardware versátil que les permita diseñar rápidamente la tecnología inalámbrica en su producto en medición inteligente, iluminación inteligente, hogar inteligente, energía inteligente y automatización, así como espacio industrial. CNX200 es el único módulo en el mercado que ofrece operación simultánea en ambas bandas y es compatible con OMS, ZigBee, Thread, así como con IP500®."
+    },
+
+    {
+      "titulo": [
+        {
+          "url": "Kit-de-Desarrollo-R3",
+          "encabezado": "Kit R3 De Desarrollo",
+          "titulo": "CoreNetix – IP500® Kit de Desarrollo R3",
+          "nav" : "Kit R3"
+        }
+      ],
+      "kit": [
+        
+          {"item": "Tres tableros CNX DK"},
+          {"item": "Tablero para Puerto R2"},
+          {"item": "Netbook"},
+          {"item": "Demo de Inicio Rápido"},
+          {"item": "Demo de Desarrollo"},
+          {"item": "CAble USB"},
+          {"item": "Documentación"}
+        
+      ],
+      
+      "distribuidoPor": 
+        {
+          "logo": "http://www.corenetix.com/images/logo.png",
+          "links": [{"link":"www.corenetix.com"}]
+        },
+      "img": "Bildschirmfoto-2019-02-27-um-23.20.46.png",
+      "grafico" : "grafico.jpg",
+      "descripcion": "El kit de desarrollo CNX - IP500® R3 ofrece todo lo necesario para que los desarrolladores de sistemas integren sus productos de Edificios Inteligentes en una red IP500®. Aprenda lo fácil que es controlar y comunicarse con sensores y actores a través de una interfaz web gráfica. En menos de 10 minutos, puede tener una red de demostración IP500® con todas las funciones configuradas en su entorno. Simplemente encienda el Netbook, coloque los tableros DK y enciéndalos, y en unos momentos puede probar las funciones en el tablero. El módulo CNX100 montado en las placas de desarrollo con todas las funciones proporciona la base para el despliegue de una red IP500®. Se proporciona una demostración de desarrollo como marco para crear sus propias aplicaciones para sus propios dispositivos compatibles con IP500®"
+    }
+  ]
+}

@@ -1,13 +1,26 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { NoticiasService } from '../noticias.service'
 
 @Component({
   selector: 'app-products',
   templateUrl: './products.component.html',
-  styleUrls: ['./products.component.css']
+  styleUrls: ['./products.component.scss']
 })
 export class ProductsComponent implements OnInit {
 
-  constructor() { }
+  producto: any [] = [];
+  caracteristicas: any[] = []
+
+  constructor(
+    private ruta: ActivatedRoute,
+    private _servicio: NoticiasService
+  ) { 
+    this.ruta.params.subscribe(params =>{
+      this.producto = this._servicio.unProducto(params['id'])
+    })
+    console.log(this.producto)
+  }
 
   ngOnInit() {
   }
