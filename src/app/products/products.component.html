@@ -11,30 +11,57 @@
         <p>{{producto.descripcion}}</p>
     </div>
     <div class="imagen">
-        <img src="../../assets/productos/{{producto.img}}" alt="" width="auto">
+        <div>
+            <img src="../../assets/productos/{{producto.img}}" alt="" width="auto">
+        </div>
     </div>
-    <div class="listas">
-    <ul class="lista1" *ngIf="producto.caracteristicas">
-        <li *ngFor="let caracteristica of producto.caracteristicas">{{caracteristica.item}}</li>
+    <ul class="col-izq" *ngIf="producto.caracteristicas">
+        <div class="lista">
+            <h4>Características Claves</h4>
+            <li *ngFor="let caracteristica of producto.caracteristicas">
+                <mdb-icon fas icon="check" class="green-text mr-2" aria-hidden="true"></mdb-icon>
+                {{caracteristica.item}}
+            </li>
+        </div>
     </ul>
-    <ul class="lista2" *ngIf="producto.aplicaciones">
-        <li *ngIf="producto.aplicaciones['Edificios y casas comerciales inteligentes']">Edificios y casas comerciales inteligentes</li>
-        <li *ngIf="producto.aplicaciones['Automatización inalámbrica']">Automatización inalámbrica</li>
-        <li *ngIf="producto.aplicaciones['Medición inteligente']">Medición inteligente</li>
-        <li *ngIf="producto.aplicaciones['Redes de sensores de baja potencia']">Redes de sensores de baja potencia</li>
-        <li *ngIf="producto.aplicaciones['Gestión inteligente de energía ecológica']">Gestión inteligente de energía ecológica</li>
-        <li *ngIf="producto.aplicaciones['Seguridad inalámbrica']">Seguridad inalámbrica</li>
+    <div class="col-izq" *ngIf="producto.grafico">
+        <img src="../../assets/productos/{{producto.grafico}}">
+    </div>
+
+    <ul class="col-der" *ngIf="producto.aplicaciones">
+        <h4>Adecuado para las siguientes aplicaciones</h4>
+        <li *ngIf="producto.aplicaciones['Edificios y casas comerciales inteligentes']">
+            <mdb-icon fas icon="home" class="green-text mr-2" aria-hidden="true"></mdb-icon>
+            Edificios y casas comerciales inteligentes
+        </li>
+        <li *ngIf="producto.aplicaciones['Automatización inalámbrica']">
+            <mdb-icon fas icon="wifi" class="green-text mr-2" aria-hidden="true"></mdb-icon>
+            Automatización inalámbrica
+        </li>
+        <li *ngIf="producto.aplicaciones['Medición inteligente']">
+            <mdb-icon fas icon="flask" class="green-text mr-2" aria-hidden="true"></mdb-icon>
+            Medición inteligente
+        </li>
+        <li *ngIf="producto.aplicaciones['Redes de sensores de baja potencia']">
+            <mdb-icon fas icon="battery-full" class="green-text mr-2" aria-hidden="true"></mdb-icon>
+            Redes de sensores de baja potencia
+        </li>
+        <li *ngIf="producto.aplicaciones['Gestión inteligente de energía ecológica']">
+            <mdb-icon fas icon="leaf" class="green-text mr-2" aria-hidden="true"></mdb-icon>
+            Gestión inteligente de energía ecológica
+        </li>
+        <li *ngIf="producto.aplicaciones['Seguridad inalámbrica']">
+            <mdb-icon fas icon="lock" class="green-text mr-2" aria-hidden="true"></mdb-icon>
+            Seguridad inalámbrica
+        </li>
     </ul>
-</div>
-<div class="kit">
-    <img class="grafico" *ngIf="producto.grafico" src="../../assets/productos/{{producto.grafico}}">
-    <ul class="lista3" *ngIf="producto.kit">
+    <ul class="col-der" *ngIf="producto.kit">
         <h4>El kit Incluye</h4>
-        <li *ngFor="let item of producto.kit">{{item.item}}</li>
-
+        <li *ngFor="let item of producto.kit">
+            <mdb-icon fas icon="box-open" class="green-text mr-2" aria-hidden="true"></mdb-icon>
+            {{item.item}}
+        </li>
     </ul>
-
-</div>
     <div class="distribuido" *ngIf="producto.distribuidoPor">
         <h4>Distribuido por</h4>
         <img src="{{producto.distribuidoPor.logo}}">
@@ -43,4 +70,5 @@
             <span *ngIf="link.pais">{{link.pais}}: </span> <a href="http://{{link.link}}">{{link.link}}</a>
         </li>
     </div>
+
 </div>

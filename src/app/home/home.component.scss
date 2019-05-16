@@ -18,12 +18,15 @@ $margen: 5vw;
   margin-top: 5vh;
   h2 {
   margin-bottom: 5vw;
+  text-shadow: none;
+  color: #005b90;
 }
 }
 
 h2 {
   margin: 0;
   margin-bottom: 15px;
+  color: black;
 }
 
 .centrado {
@@ -70,17 +73,16 @@ h2 {
     .col-xl-6.contenedorTexto {
       width: 50vw;
       padding: 5vw;
+      
       @media screen and (max-width: $break-small) {
         width: 100vw;
       }
-
-      .textoBarra,
-      h2,
-      p {
-        text-align: center;
-        color: white;
-      }
+      
     }
+  }
+  .textoBarra, h2, p {
+    text-align: center;
+    color: white;
   }
 }
 
@@ -96,6 +98,10 @@ h2 {
   padding: 0;
   margin: 0;
   width: 100vw;
+  .textoBarra, h2, p {
+    text-align: center;
+    color: white;
+  }
   
   .row {
     width: 100vw;

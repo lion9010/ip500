@@ -16,12 +16,16 @@ body, html {
   }
 
   h2 {
-    margin-top: -25vh;
+  margin-top: -25vh;
   margin-bottom: 25vh;
   margin-left: 5vw;
+  color: #01579b;
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
   @media screen and (max-width: 756px) {
     margin-top: 3vw;
     margin-bottom: 3vw;
+    color: black;
+    text-shadow: 2px 2px 7px rgba(128, 128, 128, 0.5);
   }
 }
 

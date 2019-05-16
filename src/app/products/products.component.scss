@@ -1,55 +1,53 @@
 h3 {
-    margin-left: 5vw;
+  margin-left: 5vw;
+}
+h4 {
+  color: #01579b;
 }
 .contenedor {
-    display: grid;
-    padding: 3vw 5vw;
-    .texto {
-        padding: 3vw;
-        grid-area: texto;
-        text-align: justify;
+  display: grid;
+  padding: 3vw 5vw;
+  grid-gap: 3vw;
 
+  .texto {
+    grid-area: texto;
+    text-align: justify;
+  }
+  .imagen {
+    grid-area: imagen;
+    text-align: center;
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: auto;
     }
-    .imagen {
-        grid-area: imagen;
-        img {
-            object-fit: cover;
-            width: 100%;
-            height: auto;
-        }
+  }
+  .col-izq {
+    grid-area: col-izq;
+    text-align: center;
+    .lista {
+      text-align: left;
     }
-    .listas{
-        grid-area: listas;
-        display: grid;
-        .lista1 {
-            grid-area: lista1;
-            padding: 2vw;
-        }
-        .lista2 {
-            grid-area: lista2;
-            padding: 2vw;
-        }
-        grid-template-areas: 'lista1 . lista2'
-    }
-    .kit {
-        grid-area: kit;
-        display: grid;
-        .grafico{
-            grid-area: grafico;
-        }
-        .lista3 {
-            grid-area: lista3;
-        }
-        grid-template-areas: 'grafico lista3'
+  }
+  .col-der {
+    grid-area: col-der;
+  }
+  .distribuido {
+    grid-area: distribuido;
+  }
 
+  grid-template-areas:
+    "texto imagen"
+    "col-izq imagen"
+    "col-izq col-der"
+    "col-izq distribuido";
+
+    @media screen and (max-width: 680px){
+        grid-template-areas: 
+        "texto" "imagen" "col-izq" "col-der" "distribuido";
     }
-    .distribuido {
-        grid-area: distribuido;
-        text-align: right;
-    }
-    grid-template-areas:
-        'texto texto imagen'
-        'listas listas listas' 
-        'kit kit kit'
-        '. . distribuido'
+}
+
+ul {
+    list-style: none;
 }
