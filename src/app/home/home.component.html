@@ -83,7 +83,7 @@
     <div class="areaTitulo"><h2>NOTICIAS</h2></div>
     <div class="areaTarjeta{{i+1}}" *ngFor="let noticia of noticias; index as i">
         <div class="repeticiones" *ngIf="i<3">
-            <img class="areaImg" src="../../assets/news/{{noticia.img}}" alt="{{noticia.titulo}}" height="100%" width="100%">
+            <img class="areaImg" src="./img/news/{{noticia.img}}" alt="{{noticia.titulo}}" height="100%" width="100%">
             <div class="texto">
                 <h3>{{noticia.titulo}}</h3>
                 <p>{{noticia.texto}}</p>

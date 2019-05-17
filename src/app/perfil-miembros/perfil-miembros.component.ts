@@ -9,7 +9,7 @@ import { NoticiasService } from '../noticias.service';
 })
 export class PerfilMiembrosComponent implements OnInit {
 
-  miembro: any[] = [];
+  miembro: any = {};
 
   constructor(
     private ruta: ActivatedRoute,

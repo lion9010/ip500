@@ -23,7 +23,7 @@
 <div class="contenedor">
 
     <div class="box" *ngFor="let socio of socios; index as i">
-        <a [routerLink]="['/socio', i, url[i]]"><img src="../../assets/asociados/{{socio.logo[0].image}}"
+        <a [routerLink]="['/socio', i, url[i]]"><img src="./img/asociados/{{socio.logo[0].image}}"
                 alt="{{socio.name}}"></a>
     </div>
 

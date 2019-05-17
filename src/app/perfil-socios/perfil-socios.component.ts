@@ -9,7 +9,7 @@ import { NoticiasService } from '../noticias.service'
 })
 export class PerfilSociosComponent implements OnInit {
 
-  socio: any[] = []
+  socio: any = {}
 
   constructor(
     private ruta : ActivatedRoute,

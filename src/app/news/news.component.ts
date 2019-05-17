@@ -9,8 +9,8 @@ import { NoticiasService } from '../noticias.service';
 })
 export class NewsComponent implements OnInit {
 
-  noticia: any[] = [];
-  otrasNoticias: any [] = []
+  noticia: any = {};
+  otrasNoticias: any = {};
 
   constructor(
     private ruta: ActivatedRoute,

@@ -9,8 +9,8 @@ import { NoticiasService } from '../noticias.service'
 })
 export class ProductsComponent implements OnInit {
 
-  producto: any [] = [];
-  caracteristicas: any[] = []
+  producto: any={};
+  caracteristicas: any = {};
 
   constructor(
     private ruta: ActivatedRoute,
@@ -19,7 +19,6 @@ export class ProductsComponent implements OnInit {
     this.ruta.params.subscribe(params =>{
       this.producto = this._servicio.unProducto(params['id'])
     })
-    console.log(this.producto)
   }
 
   ngOnInit() {

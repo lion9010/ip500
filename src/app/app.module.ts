@@ -18,11 +18,6 @@ import { Ip500MembersComponent } from './ip500-members/ip500-members.component';
 import { Ip500PartnersComponent } from './ip500-partners/ip500-partners.component';
 import { JoinUsComponent } from './join-us/join-us.component';
 import { ProductsComponent } from './products/products.component';
-import { Gt150Component } from './gt150/gt150.component';
-import { EthernetComponent } from './ethernet/ethernet.component';
-import { Cnx100Component } from './cnx100/cnx100.component';
-import { Cnx200Component } from './cnx200/cnx200.component';
-import { DevelopmentComponent } from './development/development.component';
 import { Ip500SolutionsComponent } from './ip500-solutions/ip500-solutions.component';
 import { ProjectComponent } from './project/project.component';
 import { TechnologyComponent } from './technology/technology.component';
@@ -55,11 +50,6 @@ import { filter } from 'rxjs/operators';
     Ip500PartnersComponent,
     JoinUsComponent,
     ProductsComponent,
-    Gt150Component,
-    EthernetComponent,
-    Cnx100Component,
-    Cnx200Component,
-    DevelopmentComponent,
     Ip500SolutionsComponent,
     ProjectComponent,
     TechnologyComponent,
