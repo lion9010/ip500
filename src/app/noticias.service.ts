@@ -2,7 +2,8 @@ import { Injectable } from '@angular/core';
 import { noticias } from './data/noticias.json';
 import { miembros } from './data/members.json';
 import { socios } from './data/partners.json';
-import { productos } from './data/products.json'
+import { productos } from './data/products.json';
+import { prensa } from './data/prensa.json'
 
 @Injectable({
   providedIn: 'root'
@@ -22,7 +23,9 @@ export class NoticiasService {
 
   socios: any [] = socios;
 
-  productos: any [] = productos
+  productos: any [] = productos;
+
+  prensa: any[] = prensa;
 
   //JSON
 
@@ -40,5 +43,7 @@ export class NoticiasService {
 
   obtenerProductos() { return this.productos }
   unProducto(i){ return this.productos[i] }
+
+  obtenerPrensas() { return this.prensa }
 
 }

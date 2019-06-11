@@ -2,6 +2,7 @@ $break-small: 756px;
 $margen: 5vw;
 
 .inicio {
+  position: absolute;
   margin-top: -25vh;
   margin-bottom: 3vw;
   margin-left: 5vw;
@@ -9,6 +10,7 @@ $margen: 5vw;
     color: white;
   }
   @media screen and (max-width: $break-small) {
+    position: static;
     margin-top: 5vw;
     margin-bottom: 0vw;
   }

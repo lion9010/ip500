@@ -1,0 +1,169 @@
+{
+    "prensa" : [
+        {
+            "titulo" : "Las Cámaras de Comercio de la India celebran la Cumbre del Protocolo IP500 en Bangalore",
+            "archivo" : "Press_Release_ICC_IP500_India_format.pdf",
+            "idioma" : "en",
+            "seccion" : "ComunicadoPrensa",
+            "fecha" : {
+                "day" : 6,
+                "month" : 9,
+                "year" : 2018
+            }
+        },
+        {
+            "titulo" : "IP500 Alliance presenta una tecnología innovadora de construcción inteligente en Friburgo",
+            "archivo" : "Press_Release_IP500_Freiburg_Showcase.pdf",
+            "idioma" : "en",
+            "seccion" : "ComunicadoPrensa",
+            "fecha" : {
+                "day" : 29,
+                "month" : 8,
+                "year" : 2018
+            }
+        },
+        {
+            "titulo" : "Soluciones de ciudad inteligente IP500@ presentadas en la Cumbre de Protocolo en India",
+            "archivo" : "Press_Release_IP500_Protocol_Summit_India_2018.pdf",
+            "idioma" : "en",
+            "seccion" : "ComunicadoPrensa",
+            "fecha" : {
+                "day" : 7,
+                "month" : 8,
+                "year" : 2018
+            }
+        },
+        {
+            "titulo" : "Lanzamiento oficial de IP500® en los Países Bajos",
+            "archivo" : "180611_PM_IP500_Official_Launch_NL_English.pdf",
+            "idioma" : "en",
+            "seccion" : "ComunicadoPrensa",
+            "fecha" : {
+                "day" : 11,
+                "month" : 6,
+                "year" : 2018
+            }
+        },
+        {
+            "titulo" : "Die IP500 Alliance stellt innovative Smart Building Technologie in Freiburg zur Schau",
+            "archivo" : "Press_Release_IP500_Freiburg_Showcase_DE-1.pdf",
+            "idioma" : "de",
+            "seccion" : "ComunicadoPrensa",
+            "fecha" : {
+                "day" : 29,
+                "month" : 9,
+                "year" : 2018
+            }
+        },
+        {
+            "titulo" : "Partnerschaft MC Technologies y PcVue Solutions – Cloud basierende Leittechniklösung für IP500-Netzwerke",
+            "archivo" : "180625_PM_PcVue_MC_Technologies_Leittechnikloesung_D-1.pdf",
+            "idioma" : "de",
+            "seccion" : "ComunicadoPrensa",
+            "fecha" : {
+                "day" : 25,
+                "month" : 6,
+                "year" : 2018
+            }
+        },
+        {
+            "titulo" : "Officiële lancering van de IP500® in Nederland",
+            "archivo" : "180611_PM_IP500_Official_Launch_NL_Dutch-1.pdf",
+            "idioma" : "nl",
+            "seccion" : "ComunicadoPrensa",
+            "fecha" : {
+                "day" : 11,
+                "month" : 6,
+                "year" : 2018
+            }
+        },
+        {
+            "titulo" : "IP500®: inalámbrico, interoperable, inteligente y seguro: IP500®-Alliance en Ilumición + Construcción 2018",
+            "archivo" : "180319_PM_L_B_2018_Ankuendigung_E_FV.pdf",
+            "idioma" : "en",
+            "seccion" : "KitPrensaIyC",
+            "fecha" : {
+                "day" : 19,
+                "month" : 3,
+                "year" : 2018
+            }
+        },
+        {
+            "titulo" : "Miembro de IP500® PcVue anunció el primer sistema de administración de edificios (BMS) IP500@",
+            "archivo" : "180319_PR_IP500_Building_Management_System_PcVue_FV.pdf",
+            "idioma" : "en",
+            "seccion" : "KitPrensaIyC",
+            "fecha" : {
+                "day" : 19,
+                "month" : 3,
+                "year" : 2018
+            }
+        },
+        {
+            "titulo" : "La Alianza IP500® participa en el Proyecto de la Industria Inteligente en Friburgo, Alemania",
+            "archivo" : "180319_PR_IP500_Smart_Industry_Freiburg_FV.pdf",
+            "idioma" : "en",
+            "seccion" : "KitPrensaIyC",
+            "fecha" : {
+                "day" : 19,
+                "month" : 3,
+                "year" : 2018
+            }
+        },
+        {
+            "titulo" : "IP500® ha sido elegido para Oficinas Inteligentes en Nueva Delhi, India",
+            "archivo" : "180319_PR_IP500_Smart_Industry_Freiburg_FV.pdf",
+            "idioma" : "en",
+            "seccion" : "KitPrensaIyC",
+            "fecha" : {
+                "day" : 19,
+                "month" : 3,
+                "year" : 2018
+            }
+        },
+        {
+            "titulo" : "SMK se unió a IP500® Alliance como socio",
+            "archivo" : "180319_PR_IP500_SMK_joined_IP500_Alliance_FV.pdf",
+            "idioma" : "en",
+            "seccion" : "KitPrensaIyC",
+            "fecha" : {
+                "day" : 19,
+                "month" : 3,
+                "year" : 2018
+            }
+        },
+        {
+            "titulo" : "IP500® en CES Show en Las Vegas, EE. UU.",
+            "archivo" : "180319_PR_IP500_CES_Las_Vegas_FV.pdf",
+            "idioma" : "en",
+            "seccion" : "KitPrensaIyC",
+            "fecha" : {
+                "day" : 19,
+                "month" : 3,
+                "year" : 2018
+            }
+        },
+        {
+            "titulo" : "La Alianza IP500@ abre oficinas en India",
+            "archivo" : "180319_PR_IP500_India_FV.pdf",
+            "idioma" : "en",
+            "seccion" : "KitPrensaIyC",
+            "fecha" : {
+                "day" : 19,
+                "month" : 3,
+                "year" : 2018
+            }
+        },
+        {
+            "titulo" : "IP500 – drahtlos, interoperabel, smart und sicher: IP500® Alliance auf Light+Building 2018",
+            "archivo" : "180319_PM_L_B_2018_Ankuendigung_D_FV.pdf",
+            "idioma" : "de",
+            "seccion" : "KitPrensaIyC",
+            "fecha" : {
+                "day" : 19,
+                "month" : 3,
+                "year" : 2018
+            }
+        }
+    ]
+}
