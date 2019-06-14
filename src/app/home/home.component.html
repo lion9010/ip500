@@ -31,7 +31,8 @@
             </ul>
         </div>
         <div class="botonCentrado">
-            <button mdbBtn type="button" gradient="blue" rounded="true" mdbWavesEffect><a href="/about-ip500">Más</a></button>
+            <button mdbBtn type="button" gradient="blue" rounded="true" mdbWavesEffect><a
+                    href="/about-ip500">Más</a></button>
 
         </div>
     </section>
@@ -52,7 +53,8 @@
                     normas de
                     la industria y al especificar claramente todas las interfaces.
                 </p>
-                <button mdbBtn type="button" gradient="blue" rounded="true" mdbWavesEffect><a href="/technology">Más</a></button>
+                <button mdbBtn type="button" gradient="blue" rounded="true" mdbWavesEffect><a
+                        href="/technology">Más</a></button>
             </section>
         </div>
     </div>
@@ -70,7 +72,8 @@
                     utilizando las especificaciones de interoperabilidad BACnet e IP500®.
 
                 </p>
-                <button mdbBtn type="button" gradient="blue" rounded="true" mdbWavesEffect><a href="/ip500-solutions">Más</a></button>
+                <button mdbBtn type="button" gradient="blue" rounded="true" mdbWavesEffect><a
+                        href="/ip500-solutions">Más</a></button>
             </section>
         </div>
         <div class="col-xl-6 col-md-6 col-sm-12 col-12 imagen-2"></div>
@@ -80,7 +83,9 @@
 
 <!-- * INICIAN LAS NOTICIAS EN TARJETA -->
 <div class="contenedorAreas">
-    <div class="areaTitulo"><h2>NOTICIAS</h2></div>
+    <div class="areaTitulo">
+        <h2>NOTICIAS</h2>
+    </div>
     <div class="areaTarjeta{{i+1}}" *ngFor="let noticia of noticias; index as i">
         <div class="repeticiones" *ngIf="i<3">
             <img class="areaImg" src="./img/news/{{noticia.img}}" alt="{{noticia.titulo}}" height="100%" width="100%">
@@ -88,9 +93,9 @@
                 <h3>{{noticia.titulo}}</h3>
                 <p>{{noticia.texto}}</p>
                 <div class="leerMas">
-                    
+
                     <!-- *En caso de crear un elemento para las URLs CAMBIAR el llamado -->
-                    
+
                     <a class="btn btn-unique" [routerLink]="['/news', i, noticia.fecha, url[i]]">Leer más...</a>
                 </div>
 
@@ -111,7 +116,7 @@
                 <h3>Estandar IP500@ en el plan de desarrollo DKE </h3>
                 <p>Tecnología IP500 en el plan de desarrollo de estandarización alemana Smart-Home & Building Version
                     2.0</p>
-                
+
             </section>
         </div>
     </div>
@@ -126,7 +131,8 @@
                     Visítenos en las exposiciones y ferias más importantes del 2019 y esperamos darte la bienvenida en
                     nuestro stand. Más información::
                 </p>
-                <button mdbBtn type="button" gradient="blue" rounded="true" mdbWavesEffect><a href="/events">Eventos</a></button>
+                <button mdbBtn type="button" gradient="blue" rounded="true" mdbWavesEffect><a
+                        href="/events">Eventos</a></button>
             </section>
         </div>
         <div class="col-xl-6 col-md-6 col-sm-12 col-12 imagen-2" id="img5"></div>
