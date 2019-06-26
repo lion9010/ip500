@@ -67,7 +67,7 @@ import { filter } from 'rxjs/operators';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule, 
+    AppRoutingModule,
     AppBootstrapModule,
     BrowserAnimationsModule,
     MDBBootstrapModule.forRoot()
@@ -81,7 +81,7 @@ import { filter } from 'rxjs/operators';
 
 })
 
-export class AppModule { 
+export class AppModule {
   constructor(router: Router, viewportScroller: ViewportScroller) {
     router.events.pipe(
       filter((Event): Event is Scroll => Event instanceof Scroll)
@@ -95,8 +95,8 @@ export class AppModule {
       } else {
         // forward navigation
         // con desplazamiento atenuado
-        let scrollToTop = window.setInterval(() => {
-          let pos = window.pageYOffset;
+        const scrollToTop = window.setInterval(() => {
+          const pos = window.pageYOffset;
           if (pos > 0) {
               window.scrollTo(0, pos - 20); // how far to scroll on each step
           } else {
