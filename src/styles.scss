@@ -20,7 +20,7 @@ body, html {
   margin-bottom: 25vh;
   margin-left: 5vw;
   color: #01579b;
-  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+  text-shadow: none; /*2px 2px 7px rgba(0, 0, 0, 0.5);*/
   @media screen and (max-width: 756px) {
     margin-top: 3vw;
     margin-bottom: 3vw;
