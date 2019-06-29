@@ -1,5 +1,7 @@
 $break-small: 756px;
 $margen: 5vw;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
+
 
 .bg {
   /* The image used */
@@ -22,6 +24,12 @@ $margen: 5vw;
   margin-top: -25vh;
   margin-bottom: 3vw;
   margin-left: 5vw;
+  h1 {
+    color: rgb(114, 114, 114);
+    font-size: 48px;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+  }
   button > a {
     color: white;
   }
